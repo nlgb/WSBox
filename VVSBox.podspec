@@ -28,9 +28,9 @@ A very good tool box for iOS developer of the world.
   s.source           = { :git => 'https://github.com/nlgb/WSBox.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'VVSBox/Classes/**/**/*'
+  s.source_files = 'VVSBox/Classes/**/*'
   
   # s.resource_bundles = {
   #   'VVSBox' => ['VVSBox/Assets/*.png']
