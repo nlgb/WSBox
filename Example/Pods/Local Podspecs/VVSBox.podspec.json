@@ -1,0 +1,22 @@
+{
+  "name": "VVSBox",
+  "version": "0.1.0",
+  "summary": "A short description of VVSBox.",
+  "description": "A very good tool box for iOS developer of the world.",
+  "homepage": "https://coding.net/u/VVS/p/VVSBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "songwangs": "songwangs@pptv.com"
+  },
+  "source": {
+    "git": "https://git.coding.net/VVS/VVSBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VVSBox/Classes/**/*"
+}

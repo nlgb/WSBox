@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VVSBox_Example' do
+  pod 'VVSBox', :path => '../'
+
+  target 'VVSBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

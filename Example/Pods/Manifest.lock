@@ -1,0 +1,16 @@
+PODS:
+  - VVSBox (0.1.0)
+
+DEPENDENCIES:
+  - VVSBox (from `../`)
+
+EXTERNAL SOURCES:
+  VVSBox:
+    :path: ../
+
+SPEC CHECKSUMS:
+  VVSBox: db5b51ade92abb5f0d8c188f11f7959d78406d35
+
+PODFILE CHECKSUM: f6e0eae3667053a36a2a8424b6cb4e768413adfd
+
+COCOAPODS: 1.2.1
