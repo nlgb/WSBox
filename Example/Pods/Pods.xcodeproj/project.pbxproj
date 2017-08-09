@@ -15,12 +15,10 @@
 		2A24CEAEB0E983B9C143ED074AA36C49 /* UserDefaultsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F543F7FE6CC95A07E98B7C48B83E9FE /* UserDefaultsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		356EDD53010FCE436FA142F26916AEDA /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58F65E79A9F216FAE4D7F1183C6C71 /* UITextView+Placeholder.m */; };
 		395FD4E27794A966D192E97CB6C2660C /* ColorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A13A642457EC6415CD25A5C5C7A669 /* ColorHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		446E2297592D40DAB87FB3FD1E46FDF4 /* VVSPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36D4F71F87D19B8A52B7E9FF1C962E6 /* VVSPresentationController.m */; };
 		498CE661566524C9B84352EAFE111505 /* TimeConversionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CE0784687C19257E39F1BDF05CB5A0 /* TimeConversionTool.m */; };
 		52F94F93EF0E6DE39C6A1066B482B365 /* UIView+frame.h in Headers */ = {isa = PBXBuildFile; fileRef = E061DBB5CCBCE363521B93B13F450A4F /* UIView+frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B8BA3479BCCFCCFCA2AA90EDFFAC6FE /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D97C2F24E94774E1679BD41AB65DAD /* NSData+NSHash.m */; };
 		5BF0DDAFA436BF4DD75282FBF956261C /* NSString+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = BE55564E9507BA8B0FD98C75275F4F58 /* NSString+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C20B5D5F74BB8D115849922FDF3C62C /* VVSPopoverAnimationManager+Translation.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DAC2ADDB50BA497644237907B5355A /* VVSPopoverAnimationManager+Translation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D70EDDA12EBBC2B7C45E7D32BB7CEF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5F00738193FC646525D9C922CB720719 /* NSData+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B5E22002C93AC984F28F5161619167 /* NSData+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6007F445670FDB836C248B98C831D092 /* CollectionCellHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AFDB9A50E24B10F8CA41B0C43192937C /* CollectionCellHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,15 +28,11 @@
 		775DBE774375CF7AF53908CF40F0E746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7E38FD3AA31CAA2115B4658323C1A86D /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A368E254CF1634CC7F1CE504D2FA6DB /* UIBarButtonItem+Extension.m */; };
 		7E9B544A17074E0CE7429DD4280E901A /* MoneyConversionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB200B38825ABD25C869F4DEF32CCC /* MoneyConversionTool.m */; };
-		8691A64E1E67C819EE8CD565E4AA6DDE /* VVSPopoverAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1A30DF9CB873B83DA92BA4843713C7 /* VVSPopoverAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D1524F696A3BD7C633E8F930114D26D /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0D015DCB5EBB861CCE3FA36C8E0A83 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9647513744520270C5382C4C80F833FF /* VVSPopoverAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDFD02CFF35E873922D398C90886A8 /* VVSPopoverAnimationManager.m */; };
 		9910D5DF0C6281AAA950A9D40F1D175C /* VVSBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5D30E4100D6F863827D1C5ADEDA2D9 /* VVSBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D24F1540655C719BC632AF66CEF18D7 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = A660F42E1B1700313CBE9C8DEF5B20D0 /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A056CFB8474E20939339F00CC54EE5F1 /* TimeConversionTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 02767955525E38BCA2A32A7647B122F4 /* TimeConversionTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0F50A916020DE7BDD31014841C46C36 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1279DDF3BF069C6D4B490F745EE419 /* NSString+Extension.m */; };
-		A780D3B5073109BF269F3173218BD3F8 /* VVSPopoverAnimationManager+Translation.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB414A6AABFEE50162EF983DF465E76 /* VVSPopoverAnimationManager+Translation.m */; };
-		A961F832DB0D73176B3A9DCDC85D5D4E /* UIView+VVSFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E350637495176B250AC55EF8699D249 /* UIView+VVSFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF34425C0374070BA9E52A59A2BC909F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B7F066801482AF57117A63F352160432 /* UIToolbar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE47E8149A4D7EBD604DDD26834C25 /* UIToolbar+Extension.m */; };
 		BC67BA0671335A421896FEA9A3A8B671 /* ScreenHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AD56A891D7F932CD4E4F9676564D0930 /* ScreenHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,9 +40,7 @@
 		C6E3E1CBB3A04B4F9CA5BDC5AC799DD9 /* NSFileManager+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EDF2C6EABAB800F7EF780B136C3F28 /* NSFileManager+Extension.m */; };
 		CD036147EB517F32159E182050CF1962 /* UIBarButtonItem+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 32990AE5D6A645F755D78ACC7B6D2CF0 /* UIBarButtonItem+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC7E5153B8A72F10705B9FDEC1A51AF2 /* MoneyConversionTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 21286F016AE1E912C697ACF8446D7058 /* MoneyConversionTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E87DB575FB0B16F427219DFE40E64698 /* UIView+VVSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A6288BD54131D1926B88CAD534C2302A /* UIView+VVSFrame.m */; };
 		EBBA17B81BA5FA97797CB9C32EAC30D3 /* Pods-VVSBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FB80B6653AC3FEDB7D6313BB3BE621 /* Pods-VVSBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2B02D40F3F8B93FA7E799DD691C2091 /* VVSPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 780AC5C3FC26A0F9CD3E72FD47EEB002 /* VVSPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,16 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00ECC8FF19DBCBD5B6194A47A6E04B33 /* Pods_VVSBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VVSBox_Tests.framework; path = "Pods-VVSBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00ECC8FF19DBCBD5B6194A47A6E04B33 /* Pods_VVSBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VVSBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02767955525E38BCA2A32A7647B122F4 /* TimeConversionTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TimeConversionTool.h; sourceTree = "<group>"; };
-		0A1A30DF9CB873B83DA92BA4843713C7 /* VVSPopoverAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VVSPopoverAnimationManager.h; sourceTree = "<group>"; };
 		161E3A4E13DE4D15A7CC0293516CDB92 /* Pods-VVSBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVSBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A368E254CF1634CC7F1CE504D2FA6DB /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		1F543F7FE6CC95A07E98B7C48B83E9FE /* UserDefaultsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHeader.h; sourceTree = "<group>"; };
 		21286F016AE1E912C697ACF8446D7058 /* MoneyConversionTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MoneyConversionTool.h; sourceTree = "<group>"; };
 		2363B6D5EACCBAB3384EBB83CF0A6BB9 /* VVSBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVSBox.xcconfig; sourceTree = "<group>"; };
 		267C3AACF3605AC27B9A8BD4233CC965 /* UIView+frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
-		2ADDFD02CFF35E873922D398C90886A8 /* VVSPopoverAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VVSPopoverAnimationManager.m; sourceTree = "<group>"; };
 		2FAE47E8149A4D7EBD604DDD26834C25 /* UIToolbar+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+Extension.m"; sourceTree = "<group>"; };
 		30BE800A5FFEF854534C3CA1AD87BDC9 /* Pods-VVSBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VVSBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		32990AE5D6A645F755D78ACC7B6D2CF0 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
@@ -85,20 +75,16 @@
 		6D5D30E4100D6F863827D1C5ADEDA2D9 /* VVSBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVSBox-umbrella.h"; sourceTree = "<group>"; };
 		72E5F005406C0F6282294B9946FE924A /* VVSBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VVSBox-dummy.m"; sourceTree = "<group>"; };
 		76E200F4F040A354E6B45B2F409E7917 /* Pods-VVSBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVSBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		780AC5C3FC26A0F9CD3E72FD47EEB002 /* VVSPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VVSPresentationController.h; sourceTree = "<group>"; };
 		792A430946A16C92990070EDCB82D397 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F67DCE812F270745CC57A445ED80E28 /* Pods_VVSBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VVSBox_Example.framework; path = "Pods-VVSBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		808FC145F033178FD54295CEDBBFAEE3 /* Pods-VVSBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VVSBox_Tests.modulemap"; sourceTree = "<group>"; };
+		7F67DCE812F270745CC57A445ED80E28 /* Pods_VVSBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VVSBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		808FC145F033178FD54295CEDBBFAEE3 /* Pods-VVSBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VVSBox_Tests.modulemap"; sourceTree = "<group>"; };
 		8CF45A61BD49C8DED5790A10E21A5159 /* Pods-VVSBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVSBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E350637495176B250AC55EF8699D249 /* UIView+VVSFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+VVSFrame.h"; sourceTree = "<group>"; };
 		8FD716644CA4C2A742C9DF648F50ABDA /* Pods-VVSBox_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VVSBox_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93DAC2ADDB50BA497644237907B5355A /* VVSPopoverAnimationManager+Translation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVSPopoverAnimationManager+Translation.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A58F65E79A9F216FAE4D7F1183C6C71 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		9D75C1FB1F0086A4B6EC58CE9E5D75D9 /* NSFileManager+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Extension.h"; sourceTree = "<group>"; };
 		9F5692B13F23EFEBFD0C39DD425BE54A /* Pods-VVSBox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VVSBox_Tests-resources.sh"; sourceTree = "<group>"; };
 		A281D68749509247C28C070C61006FA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6288BD54131D1926B88CAD534C2302A /* UIView+VVSFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+VVSFrame.m"; sourceTree = "<group>"; };
 		A660F42E1B1700313CBE9C8DEF5B20D0 /* Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		A6D97C2F24E94774E1679BD41AB65DAD /* NSData+NSHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSHash.m"; sourceTree = "<group>"; };
 		A9A13A642457EC6415CD25A5C5C7A669 /* ColorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ColorHeader.h; sourceTree = "<group>"; };
@@ -115,15 +101,13 @@
 		CACB200B38825ABD25C869F4DEF32CCC /* MoneyConversionTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MoneyConversionTool.m; sourceTree = "<group>"; };
 		CF0D015DCB5EBB861CCE3FA36C8E0A83 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		D094ADEEFF5915212B6D00466D76B263 /* Pods-VVSBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VVSBox_Example-dummy.m"; sourceTree = "<group>"; };
-		D12044D2CFCA182E9BD2BB5D519D3AB8 /* VVSBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VVSBox.modulemap; sourceTree = "<group>"; };
-		D36D4F71F87D19B8A52B7E9FF1C962E6 /* VVSPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VVSPresentationController.m; sourceTree = "<group>"; };
-		DC1524FC09810BCF8A6499E2AF33BA58 /* Pods-VVSBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VVSBox_Example.modulemap"; sourceTree = "<group>"; };
+		D12044D2CFCA182E9BD2BB5D519D3AB8 /* VVSBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VVSBox.modulemap; sourceTree = "<group>"; };
+		DC1524FC09810BCF8A6499E2AF33BA58 /* Pods-VVSBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VVSBox_Example.modulemap"; sourceTree = "<group>"; };
 		DC22E7D9AEED795B6D38C437EDA97E1C /* UIToolbar+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+Extension.h"; sourceTree = "<group>"; };
-		DCB414A6AABFEE50162EF983DF465E76 /* VVSPopoverAnimationManager+Translation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VVSPopoverAnimationManager+Translation.m"; sourceTree = "<group>"; };
 		E061DBB5CCBCE363521B93B13F450A4F /* UIView+frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
 		E2162B99CBC10D707AD1A50E018C93E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1FB80B6653AC3FEDB7D6313BB3BE621 /* Pods-VVSBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VVSBox_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F504C12B882CE6B1EDF073600162793A /* VVSBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VVSBox.framework; path = VVSBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F504C12B882CE6B1EDF073600162793A /* VVSBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VVSBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CE0784687C19257E39F1BDF05CB5A0 /* TimeConversionTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TimeConversionTool.m; sourceTree = "<group>"; };
 		F70A80CB1CE9D67256C5B77E1FEC16B8 /* Pods-VVSBox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VVSBox_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,7 +146,6 @@
 				21286F016AE1E912C697ACF8446D7058 /* MoneyConversionTool.h */,
 				CACB200B38825ABD25C869F4DEF32CCC /* MoneyConversionTool.m */,
 			);
-			name = Money;
 			path = Money;
 			sourceTree = "<group>";
 		};
@@ -200,7 +183,6 @@
 				E061DBB5CCBCE363521B93B13F450A4F /* UIView+frame.h */,
 				267C3AACF3605AC27B9A8BD4233CC965 /* UIView+frame.m */,
 			);
-			name = Category;
 			path = Category;
 			sourceTree = "<group>";
 		};
@@ -230,9 +212,7 @@
 				BE4B30332AE950D29D9EC6BCEB9BB3AA /* Macro */,
 				0BE0C60FCB66023BF8F4C4B3E3225F81 /* Money */,
 				57450B2C815C50D63FB39A6E568E3962 /* NSHash */,
-				8F1672F0A55B1E48F8AB42D0679DC180 /* PopoverAnimation */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -244,7 +224,6 @@
 				BE55564E9507BA8B0FD98C75275F4F58 /* NSString+NSHash.h */,
 				5CF7BD1EF78ED929480FCC260D84D8B3 /* NSString+NSHash.m */,
 			);
-			name = NSHash;
 			path = NSHash;
 			sourceTree = "<group>";
 		};
@@ -274,24 +253,7 @@
 			children = (
 				2E3C734B95F8B6FC692F5B9C7681E932 /* Classes */,
 			);
-			name = VVSBox;
 			path = VVSBox;
-			sourceTree = "<group>";
-		};
-		8F1672F0A55B1E48F8AB42D0679DC180 /* PopoverAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				8E350637495176B250AC55EF8699D249 /* UIView+VVSFrame.h */,
-				A6288BD54131D1926B88CAD534C2302A /* UIView+VVSFrame.m */,
-				0A1A30DF9CB873B83DA92BA4843713C7 /* VVSPopoverAnimationManager.h */,
-				2ADDFD02CFF35E873922D398C90886A8 /* VVSPopoverAnimationManager.m */,
-				93DAC2ADDB50BA497644237907B5355A /* VVSPopoverAnimationManager+Translation.h */,
-				DCB414A6AABFEE50162EF983DF465E76 /* VVSPopoverAnimationManager+Translation.m */,
-				780AC5C3FC26A0F9CD3E72FD47EEB002 /* VVSPresentationController.h */,
-				D36D4F71F87D19B8A52B7E9FF1C962E6 /* VVSPresentationController.m */,
-			);
-			name = PopoverAnimation;
-			path = PopoverAnimation;
 			sourceTree = "<group>";
 		};
 		AB93301D2AF29225B69FD958A0EACE44 /* Date */ = {
@@ -300,7 +262,6 @@
 				02767955525E38BCA2A32A7647B122F4 /* TimeConversionTool.h */,
 				F5CE0784687C19257E39F1BDF05CB5A0 /* TimeConversionTool.m */,
 			);
-			name = Date;
 			path = Date;
 			sourceTree = "<group>";
 		};
@@ -321,7 +282,6 @@
 				AD56A891D7F932CD4E4F9676564D0930 /* ScreenHeader.h */,
 				1F543F7FE6CC95A07E98B7C48B83E9FE /* UserDefaultsHeader.h */,
 			);
-			name = Macro;
 			path = Macro;
 			sourceTree = "<group>";
 		};
@@ -395,12 +355,8 @@
 				6795A8C3C5DF4046A1643419C895ECF5 /* UITextView+Placeholder.h in Headers */,
 				159E844491940F1010D8A3A1D48AD29F /* UIToolbar+Extension.h in Headers */,
 				52F94F93EF0E6DE39C6A1066B482B365 /* UIView+frame.h in Headers */,
-				A961F832DB0D73176B3A9DCDC85D5D4E /* UIView+VVSFrame.h in Headers */,
 				2A24CEAEB0E983B9C143ED074AA36C49 /* UserDefaultsHeader.h in Headers */,
 				9910D5DF0C6281AAA950A9D40F1D175C /* VVSBox-umbrella.h in Headers */,
-				5C20B5D5F74BB8D115849922FDF3C62C /* VVSPopoverAnimationManager+Translation.h in Headers */,
-				8691A64E1E67C819EE8CD565E4AA6DDE /* VVSPopoverAnimationManager.h in Headers */,
-				F2B02D40F3F8B93FA7E799DD691C2091 /* VVSPresentationController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,11 +482,7 @@
 				356EDD53010FCE436FA142F26916AEDA /* UITextView+Placeholder.m in Sources */,
 				B7F066801482AF57117A63F352160432 /* UIToolbar+Extension.m in Sources */,
 				24899E5F02D60B797515DB58C8B60097 /* UIView+frame.m in Sources */,
-				E87DB575FB0B16F427219DFE40E64698 /* UIView+VVSFrame.m in Sources */,
 				27DFD6641706632F9DD67E9AF0252C39 /* VVSBox-dummy.m in Sources */,
-				A780D3B5073109BF269F3173218BD3F8 /* VVSPopoverAnimationManager+Translation.m in Sources */,
-				9647513744520270C5382C4C80F833FF /* VVSPopoverAnimationManager.m in Sources */,
-				446E2297592D40DAB87FB3FD1E46FDF4 /* VVSPresentationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
