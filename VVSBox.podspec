@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VVSBox'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of VVSBox.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ A very good tool box for iOS developer of the world.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'VVSBox/Classes/**/*'
+  s.source_files = 'VVSBox/Classes/**/**/*'
   
   # s.resource_bundles = {
   #   'VVSBox' => ['VVSBox/Assets/*.png']
