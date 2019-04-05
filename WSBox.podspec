@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WSBox'
-  s.version          = '0.4.4'
-  s.summary          = 'A short description of WSBox.'
+  s.version          = '0.4.5'
+  s.summary          = 'A tool box for iOS developer.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A very good tool box for iOS developer of the world.
+A very good tool box for iOS developer.
                        DESC
 
   s.homepage         = 'https://github.com/wsv587/WSBox'

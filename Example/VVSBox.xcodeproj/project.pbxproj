@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D040D6142257C65300174606 /* WSBox.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D040D6132257C65300174606 /* WSBox.podspec */; };
 		E3B0595B71F27788431C0544 /* Pods_VVSBox_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1596C90662C18DD0046B5B /* Pods_VVSBox_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +42,7 @@
 		2068CA60D5E1D79684020783 /* Pods-VVSBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVSBox_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VVSBox_Tests/Pods-VVSBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C1596C90662C18DD0046B5B /* Pods_VVSBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VVSBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		410C5DE573BCA6AB51A340AC /* Pods_VVSBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VVSBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B8F2F9F7A4B09D9C6E82FA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5B8F2F9F7A4B09D9C6E82FA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* VVSBox_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVSBox_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +64,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A14095906889A54DC2FED1C /* VVSBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VVSBox.podspec; path = ../VVSBox.podspec; sourceTree = "<group>"; };
+		D040D6132257C65300174606 /* WSBox.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WSBox.podspec; path = ../WSBox.podspec; sourceTree = "<group>"; };
 		EC681D9C911748187EB59B6D /* Pods-VVSBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVSBox_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VVSBox_Tests/Pods-VVSBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F400C7C1BDD049413CE6E83B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F400C7C1BDD049413CE6E83B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FAA7FE9FFB1746E61318C1FE /* Pods-VVSBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVSBox_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-VVSBox_Example/Pods-VVSBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,7 +190,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				9A14095906889A54DC2FED1C /* VVSBox.podspec */,
+				D040D6132257C65300174606 /* WSBox.podspec */,
 				5B8F2F9F7A4B09D9C6E82FA7 /* README.md */,
 				F400C7C1BDD049413CE6E83B /* LICENSE */,
 			);
@@ -257,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -276,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D040D6142257C65300174606 /* WSBox.podspec in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
