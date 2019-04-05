@@ -94,7 +94,7 @@
 		61A06199F4C028B902AA4CA97FF97DC1 /* Pods-VVSBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVSBox_Example-Info.plist"; sourceTree = "<group>"; };
 		673026A39AAC7FACD662322D93A91BE6 /* NSFileManager+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Extension.h"; sourceTree = "<group>"; };
 		693066ECE5E1605223189D3C6092D8F1 /* UIView+frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
-		74673E3B85FC68B6EA808567CF8EA57B /* VVSBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VVSBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		74673E3B85FC68B6EA808567CF8EA57B /* VVSBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VVSBox.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		7533B10A0CDA309BFD0CA602020801F6 /* Pods-VVSBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVSBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		75871C475FF77BCFA565528B395D1D40 /* ColorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ColorHeader.h; sourceTree = "<group>"; };
 		76F7C8FF8A3CCDFD4DEA8CC11222B263 /* NSString+NSHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHash.m"; sourceTree = "<group>"; };
@@ -105,15 +105,15 @@
 		988647E2CF59946CDE32D8063915B022 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
 		994F4F788DBA5D1B9D671DBB738828A9 /* VVSBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVSBox-umbrella.h"; sourceTree = "<group>"; };
 		9B0071494E7FE5B81EAC84F41F28374B /* NSString+NSHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHash.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8E5CE8923E01A714A7BAF7C39D1F7AF /* WSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WSSwizzle.m; sourceTree = "<group>"; };
 		A8EDEB41BF42016FBF366E81A6BA1B53 /* Pods-VVSBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVSBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A964B04FF7DF89EE114257CDC2618037 /* UserDefaultsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHeader.h; sourceTree = "<group>"; };
-		ADAB2A702DE2DA450F1D09ED5E538BEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B1B67AE95342B0BC34F61640D2D3F61B /* Pods_VVSBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VVSBox_Tests.framework; path = "Pods-VVSBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAB2A702DE2DA450F1D09ED5E538BEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B1B67AE95342B0BC34F61640D2D3F61B /* Pods_VVSBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VVSBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C66E9FBBDCAB4FFCA5F2E48AB3D384 /* ScreenHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ScreenHeader.h; sourceTree = "<group>"; };
 		B6D7D3F161F884168BBFB456188703E6 /* Pods-VVSBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VVSBox_Example-umbrella.h"; sourceTree = "<group>"; };
-		BE670946B0E9074487A51FDDCAC66782 /* VVSBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VVSBox.framework; path = VVSBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE670946B0E9074487A51FDDCAC66782 /* VVSBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VVSBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D76F0BD91698A2DCC5952177DB5C76 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		CB4448CE3C64FA50B6CDA42DA2F52D40 /* UIToolbar+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+Extension.h"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -123,9 +123,9 @@
 		CF01CE5645BB1CE65E5FDEE36E7D5A99 /* Pods-VVSBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVSBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D520ABC575506865C2BEB20A2D0BCF7B /* Pods-VVSBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVSBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D52488D3278DAE7091CF4AC1FD592751 /* Pods-VVSBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VVSBox_Tests-dummy.m"; sourceTree = "<group>"; };
-		DB10014DD903C31F7DB5F08D2063B3E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DB10014DD903C31F7DB5F08D2063B3E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DB17178B5E0A5EB4596F72A8C12DEA36 /* UIToolbar+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+Extension.m"; sourceTree = "<group>"; };
-		DF7520EB6E3C8D5B44A7E8CF82AAF96C /* Pods_VVSBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VVSBox_Example.framework; path = "Pods-VVSBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7520EB6E3C8D5B44A7E8CF82AAF96C /* Pods_VVSBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VVSBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48A7235B15D0CF79097DF32A4EF70F9 /* Pods-VVSBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VVSBox_Example-dummy.m"; sourceTree = "<group>"; };
 		F438C3DE0E0D001680F4BC02C3C0242F /* TimeConversionTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TimeConversionTool.m; sourceTree = "<group>"; };
 		FE7FF5E959AFDA81C0B375BE27F39FB4 /* NSFileManager+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Extension.m"; sourceTree = "<group>"; };
@@ -483,6 +483,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -889,8 +890,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
