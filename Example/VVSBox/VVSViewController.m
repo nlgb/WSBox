@@ -7,6 +7,7 @@
 //
 
 #import "VVSViewController.h"
+#import "WSSwizzle.h"
 
 @interface VVSViewController ()
 
@@ -17,13 +18,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"viewWillAppear");
 }
 
+- (void)ws_viewWillAppear:(BOOL)animated {
+    [self ws_viewWillAppear:animated];
+    NSLog(@"ws_viewWillAppear");
+}
+
++ (void)load {
+    ws_swizzleInstanceMethod(self, NSSelectorFromString(@"viewWillAppear:"), NSSelectorFromString(@"ws_viewWillAppear:"));
+}
 @end

@@ -7,402 +7,458 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B407010B13BDC2657F59E49330B7337 /* Pods-VVSBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B04253B66D9BC54940989F6CB3965D97 /* Pods-VVSBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F52DF1D245CDFDD4E17D63A982DD6AE /* NSString+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7BD1EF78ED929480FCC260D84D8B3 /* NSString+NSHash.m */; };
-		159E844491940F1010D8A3A1D48AD29F /* UIToolbar+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = DC22E7D9AEED795B6D38C437EDA97E1C /* UIToolbar+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24899E5F02D60B797515DB58C8B60097 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C3AACF3605AC27B9A8BD4233CC965 /* UIView+frame.m */; };
-		27DFD6641706632F9DD67E9AF0252C39 /* VVSBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E5F005406C0F6282294B9946FE924A /* VVSBox-dummy.m */; };
-		2A24CEAEB0E983B9C143ED074AA36C49 /* UserDefaultsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F543F7FE6CC95A07E98B7C48B83E9FE /* UserDefaultsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		356EDD53010FCE436FA142F26916AEDA /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58F65E79A9F216FAE4D7F1183C6C71 /* UITextView+Placeholder.m */; };
-		395FD4E27794A966D192E97CB6C2660C /* ColorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A13A642457EC6415CD25A5C5C7A669 /* ColorHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		498CE661566524C9B84352EAFE111505 /* TimeConversionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CE0784687C19257E39F1BDF05CB5A0 /* TimeConversionTool.m */; };
-		52F94F93EF0E6DE39C6A1066B482B365 /* UIView+frame.h in Headers */ = {isa = PBXBuildFile; fileRef = E061DBB5CCBCE363521B93B13F450A4F /* UIView+frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B8BA3479BCCFCCFCA2AA90EDFFAC6FE /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D97C2F24E94774E1679BD41AB65DAD /* NSData+NSHash.m */; };
-		5BF0DDAFA436BF4DD75282FBF956261C /* NSString+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = BE55564E9507BA8B0FD98C75275F4F58 /* NSString+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D70EDDA12EBBC2B7C45E7D32BB7CEF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5F00738193FC646525D9C922CB720719 /* NSData+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B5E22002C93AC984F28F5161619167 /* NSData+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6007F445670FDB836C248B98C831D092 /* CollectionCellHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AFDB9A50E24B10F8CA41B0C43192937C /* CollectionCellHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6795A8C3C5DF4046A1643419C895ECF5 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B546DD1E93A1B9912D65D7DBA0B2A67 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F01D1C9DF469966D3EC527FD383E941 /* Pods-VVSBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 436F62D9129AFC4FF42A98153C32391D /* Pods-VVSBox_Tests-dummy.m */; };
-		6FE4BEB519336A4481848F0AA2425ED2 /* NSFileManager+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D75C1FB1F0086A4B6EC58CE9E5D75D9 /* NSFileManager+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		775DBE774375CF7AF53908CF40F0E746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7E38FD3AA31CAA2115B4658323C1A86D /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A368E254CF1634CC7F1CE504D2FA6DB /* UIBarButtonItem+Extension.m */; };
-		7E9B544A17074E0CE7429DD4280E901A /* MoneyConversionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB200B38825ABD25C869F4DEF32CCC /* MoneyConversionTool.m */; };
-		8D1524F696A3BD7C633E8F930114D26D /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0D015DCB5EBB861CCE3FA36C8E0A83 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9910D5DF0C6281AAA950A9D40F1D175C /* VVSBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5D30E4100D6F863827D1C5ADEDA2D9 /* VVSBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D24F1540655C719BC632AF66CEF18D7 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = A660F42E1B1700313CBE9C8DEF5B20D0 /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A056CFB8474E20939339F00CC54EE5F1 /* TimeConversionTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 02767955525E38BCA2A32A7647B122F4 /* TimeConversionTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0F50A916020DE7BDD31014841C46C36 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1279DDF3BF069C6D4B490F745EE419 /* NSString+Extension.m */; };
-		AF34425C0374070BA9E52A59A2BC909F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B7F066801482AF57117A63F352160432 /* UIToolbar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE47E8149A4D7EBD604DDD26834C25 /* UIToolbar+Extension.m */; };
-		BC67BA0671335A421896FEA9A3A8B671 /* ScreenHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AD56A891D7F932CD4E4F9676564D0930 /* ScreenHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD98B7C1A1D311B0309466549BDEE0D0 /* Pods-VVSBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D094ADEEFF5915212B6D00466D76B263 /* Pods-VVSBox_Example-dummy.m */; };
-		C6E3E1CBB3A04B4F9CA5BDC5AC799DD9 /* NSFileManager+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EDF2C6EABAB800F7EF780B136C3F28 /* NSFileManager+Extension.m */; };
-		CD036147EB517F32159E182050CF1962 /* UIBarButtonItem+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 32990AE5D6A645F755D78ACC7B6D2CF0 /* UIBarButtonItem+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC7E5153B8A72F10705B9FDEC1A51AF2 /* MoneyConversionTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 21286F016AE1E912C697ACF8446D7058 /* MoneyConversionTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBBA17B81BA5FA97797CB9C32EAC30D3 /* Pods-VVSBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FB80B6653AC3FEDB7D6313BB3BE621 /* Pods-VVSBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		004FF25114267810A54699C7C3D1A2BE /* TimeConversionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F438C3DE0E0D001680F4BC02C3C0242F /* TimeConversionTool.m */; };
+		01D982032FAEF730D6B6627F6FC870F3 /* Pods-VVSBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D7D3F161F884168BBFB456188703E6 /* Pods-VVSBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0277E604BFDB451F447A07189F19346D /* Pods-VVSBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D52488D3278DAE7091CF4AC1FD592751 /* Pods-VVSBox_Tests-dummy.m */; };
+		10D579FC6C62E1FC237FAD4A1B4995B2 /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 440FE14F13D7181E0D6577F5127EE65D /* NSData+NSHash.m */; };
+		16A45DFBFCDF76919DC9F5A302A21941 /* UIView+frame.h in Headers */ = {isa = PBXBuildFile; fileRef = CE56C852D97F720641E8075AA272A6CF /* UIView+frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EAA6F3AFD368620C20FC0DE2391B59C /* NSString+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F7C8FF8A3CCDFD4DEA8CC11222B263 /* NSString+NSHash.m */; };
+		31E7A552E2C8E7295FFE2F798D78A291 /* NSFileManager+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7FF5E959AFDA81C0B375BE27F39FB4 /* NSFileManager+Extension.m */; };
+		3A987ED77DF5D155FA4E87D90F2A12EE /* TimeConversionTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B146A0964E486AC724579FB1A9F1045 /* TimeConversionTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D94DFF5D9042A1F727DB8D989439DA3 /* NSMutableArray+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C1578D278AC8ACFFC0E2029AF8B11B1 /* NSMutableArray+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C19A9542279FF2B390180F15CE116D /* NSArray+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221BF1EC90119F2A1D83AB65D97FAF67 /* NSArray+WSExtension.m */; };
+		525FFC690D1A28CBD30BF108E0EEA5FF /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 988647E2CF59946CDE32D8063915B022 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53BD781CFBD34312957E9B8066BB8FC9 /* UIBarButtonItem+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD45D15C9EC5FF7E2E5B4E5CB2E22DB /* UIBarButtonItem+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5488DDDD57FEB5152567B681D7F81F50 /* NSArray+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F20500887BEA92B3AE5C5CF57EBCF36 /* NSArray+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57BABC76F942FE7F3C4C7016F5272DEA /* WSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E5CE8923E01A714A7BAF7C39D1F7AF /* WSSwizzle.m */; };
+		68C5778CB4CB15217CD5BDFEED93A2CD /* NSFileManager+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 673026A39AAC7FACD662322D93A91BE6 /* NSFileManager+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C96BEED9BF9FB1C21DFDEBF87515FD5 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 693066ECE5E1605223189D3C6092D8F1 /* UIView+frame.m */; };
+		6DF6387B888931B977F08884BCB2FAAB /* UserDefaultsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A964B04FF7DF89EE114257CDC2618037 /* UserDefaultsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F69C6D0D16C06EED21EF234DC9DB91B /* Pods-VVSBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17662BA9B36B12D7A974F87B7AB3087C /* Pods-VVSBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F82CAF1826B1E5063010495A845F3B /* NSMutableArray+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 265DC3541A458F593B46AFA9EA098B4D /* NSMutableArray+WSExtension.m */; };
+		7FA640A536EC8E3327937DAFF989953C /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 146980E7C68DAAB1C7EBA81E443BBB31 /* UITextView+Placeholder.m */; };
+		808A84C600B4EF4B0770341DC4440CDE /* WSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC45D71B808F1BF00CF6E776D1A6D4C /* WSSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0D68A41DF82669B8617E4CD4585200 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8C80769A9B547568434AEE2091043218 /* VVSBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 994F4F788DBA5D1B9D671DBB738828A9 /* VVSBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D9D4E2A5082307163A3DBA9EB910541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8DEA680EA7EFEC5AB4B93FF758274883 /* Pods-VVSBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E48A7235B15D0CF79097DF32A4EF70F9 /* Pods-VVSBox_Example-dummy.m */; };
+		A05169C2E0B77CE090C616CE48187D09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A44ADDEDE34B9F2B5977ECC772B7A13D /* MoneyConversionTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C01125FB37AC8EA0A2622B1DF331E25 /* MoneyConversionTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6D5544B070D6DDCFD80728D2EEDC19F /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6BA9560EB1B290FC9E705C5BDF65B3 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4AB5877ABB7058D55E28706782E3E9E /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 468912C80151A7E7912CC2FEC8A6691D /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61ECF02A7F1220CC9FFD6687C3AB344 /* UIToolbar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB17178B5E0A5EB4596F72A8C12DEA36 /* UIToolbar+Extension.m */; };
+		C82D158D0861462A10D31F2470DD7E20 /* CollectionCellHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CADE8F75B7D7EBD21B0A5E2EC27FB9C /* CollectionCellHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C96AF073EFA0E43A0A3ACBFCA9B18114 /* ColorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 75871C475FF77BCFA565528B395D1D40 /* ColorHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2BFEFC9668744AA3A50859C084AB938 /* VVSBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC477FCF5EF1B403A975E9BB80A2FF43 /* VVSBox-dummy.m */; };
+		D444F82F822B2A29C96E9D75DBF60C4B /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D76F0BD91698A2DCC5952177DB5C76 /* UIBarButtonItem+Extension.m */; };
+		E0CBC9B0154D2368D98E1BAC078A7F87 /* MoneyConversionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5395D5472A39440C0C1B5A9C97B05C12 /* MoneyConversionTool.m */; };
+		E6041A391CD21CE223355B0158A6DB0F /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AFCDE7440FAF76D7C23B864F49EB1D /* NSString+Extension.m */; };
+		E77EDE3559043D4402F7956EE5DCE10B /* ScreenHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C66E9FBBDCAB4FFCA5F2E48AB3D384 /* ScreenHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB95478F50BB294940E17174B478ADD4 /* NSData+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E594D2C7705C629ADA835999E3F6692 /* NSData+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED494B0ECE47A00EFC9C3BDDF39A6958 /* UIToolbar+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4448CE3C64FA50B6CDA42DA2F52D40 /* UIToolbar+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6E84799ACF0425BA05AFF4640EFB8DA /* NSString+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0071494E7FE5B81EAC84F41F28374B /* NSString+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0BFADE17780F529ECB36A46BE69763FE /* PBXContainerItemProxy */ = {
+		18B4ED2D6C05CC77063938A4613B967C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD610872A501392DF65C8767D5DAD1E8;
+			remoteGlobalIDString = DC48B81360A2F57FE04F1F4207F1AB6D;
 			remoteInfo = VVSBox;
+		};
+		5F78036E38A11B8FC212074124381037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810462893D74F07C1878953FB609A991;
+			remoteInfo = "Pods-VVSBox_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00ECC8FF19DBCBD5B6194A47A6E04B33 /* Pods_VVSBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VVSBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		02767955525E38BCA2A32A7647B122F4 /* TimeConversionTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TimeConversionTool.h; sourceTree = "<group>"; };
-		161E3A4E13DE4D15A7CC0293516CDB92 /* Pods-VVSBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVSBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A368E254CF1634CC7F1CE504D2FA6DB /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
-		1F543F7FE6CC95A07E98B7C48B83E9FE /* UserDefaultsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHeader.h; sourceTree = "<group>"; };
-		21286F016AE1E912C697ACF8446D7058 /* MoneyConversionTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MoneyConversionTool.h; sourceTree = "<group>"; };
-		2363B6D5EACCBAB3384EBB83CF0A6BB9 /* VVSBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVSBox.xcconfig; sourceTree = "<group>"; };
-		267C3AACF3605AC27B9A8BD4233CC965 /* UIView+frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
-		2FAE47E8149A4D7EBD604DDD26834C25 /* UIToolbar+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+Extension.m"; sourceTree = "<group>"; };
-		30BE800A5FFEF854534C3CA1AD87BDC9 /* Pods-VVSBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VVSBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		32990AE5D6A645F755D78ACC7B6D2CF0 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
-		32B5E22002C93AC984F28F5161619167 /* NSData+NSHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+NSHash.h"; sourceTree = "<group>"; };
-		39C043849E8494067287602516D64B8F /* Pods-VVSBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVSBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		436F62D9129AFC4FF42A98153C32391D /* Pods-VVSBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VVSBox_Tests-dummy.m"; sourceTree = "<group>"; };
-		44F1207E340641BA30909BDAF07728DA /* VVSBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVSBox-prefix.pch"; sourceTree = "<group>"; };
-		4B546DD1E93A1B9912D65D7DBA0B2A67 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
-		5CF7BD1EF78ED929480FCC260D84D8B3 /* NSString+NSHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHash.m"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6D5D30E4100D6F863827D1C5ADEDA2D9 /* VVSBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVSBox-umbrella.h"; sourceTree = "<group>"; };
-		72E5F005406C0F6282294B9946FE924A /* VVSBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VVSBox-dummy.m"; sourceTree = "<group>"; };
-		76E200F4F040A354E6B45B2F409E7917 /* Pods-VVSBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVSBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		792A430946A16C92990070EDCB82D397 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F67DCE812F270745CC57A445ED80E28 /* Pods_VVSBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VVSBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		808FC145F033178FD54295CEDBBFAEE3 /* Pods-VVSBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VVSBox_Tests.modulemap"; sourceTree = "<group>"; };
-		8CF45A61BD49C8DED5790A10E21A5159 /* Pods-VVSBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVSBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8FD716644CA4C2A742C9DF648F50ABDA /* Pods-VVSBox_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VVSBox_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A58F65E79A9F216FAE4D7F1183C6C71 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
-		9D75C1FB1F0086A4B6EC58CE9E5D75D9 /* NSFileManager+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Extension.h"; sourceTree = "<group>"; };
-		9F5692B13F23EFEBFD0C39DD425BE54A /* Pods-VVSBox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VVSBox_Tests-resources.sh"; sourceTree = "<group>"; };
-		A281D68749509247C28C070C61006FA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A660F42E1B1700313CBE9C8DEF5B20D0 /* Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		A6D97C2F24E94774E1679BD41AB65DAD /* NSData+NSHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSHash.m"; sourceTree = "<group>"; };
-		A9A13A642457EC6415CD25A5C5C7A669 /* ColorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ColorHeader.h; sourceTree = "<group>"; };
-		AD56A891D7F932CD4E4F9676564D0930 /* ScreenHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ScreenHeader.h; sourceTree = "<group>"; };
-		AFDB9A50E24B10F8CA41B0C43192937C /* CollectionCellHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CollectionCellHeader.h; sourceTree = "<group>"; };
-		B04253B66D9BC54940989F6CB3965D97 /* Pods-VVSBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VVSBox_Example-umbrella.h"; sourceTree = "<group>"; };
-		B2BE711B44F5608FF5E3228EFA8FB950 /* Pods-VVSBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVSBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B2C09217E3E91CA82CC1F9004BB247BB /* Pods-VVSBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VVSBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B393E3300953D84891845145AF7FD506 /* Pods-VVSBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVSBox_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B8EDF2C6EABAB800F7EF780B136C3F28 /* NSFileManager+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Extension.m"; sourceTree = "<group>"; };
-		B979C1A508F195AC316C8E36E4DFF90C /* Pods-VVSBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VVSBox_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BD1279DDF3BF069C6D4B490F745EE419 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
-		BE55564E9507BA8B0FD98C75275F4F58 /* NSString+NSHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHash.h"; sourceTree = "<group>"; };
-		CACB200B38825ABD25C869F4DEF32CCC /* MoneyConversionTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MoneyConversionTool.m; sourceTree = "<group>"; };
-		CF0D015DCB5EBB861CCE3FA36C8E0A83 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
-		D094ADEEFF5915212B6D00466D76B263 /* Pods-VVSBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VVSBox_Example-dummy.m"; sourceTree = "<group>"; };
-		D12044D2CFCA182E9BD2BB5D519D3AB8 /* VVSBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VVSBox.modulemap; sourceTree = "<group>"; };
-		DC1524FC09810BCF8A6499E2AF33BA58 /* Pods-VVSBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VVSBox_Example.modulemap"; sourceTree = "<group>"; };
-		DC22E7D9AEED795B6D38C437EDA97E1C /* UIToolbar+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+Extension.h"; sourceTree = "<group>"; };
-		E061DBB5CCBCE363521B93B13F450A4F /* UIView+frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
-		E2162B99CBC10D707AD1A50E018C93E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1FB80B6653AC3FEDB7D6313BB3BE621 /* Pods-VVSBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VVSBox_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F504C12B882CE6B1EDF073600162793A /* VVSBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VVSBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5CE0784687C19257E39F1BDF05CB5A0 /* TimeConversionTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TimeConversionTool.m; sourceTree = "<group>"; };
-		F70A80CB1CE9D67256C5B77E1FEC16B8 /* Pods-VVSBox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VVSBox_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		08763F3076CDD80B85506E6B696FFE2D /* VVSBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VVSBox.modulemap; sourceTree = "<group>"; };
+		0C1578D278AC8ACFFC0E2029AF8B11B1 /* NSMutableArray+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WSExtension.h"; sourceTree = "<group>"; };
+		10C3E93D647C0507AE0D17217629CB95 /* Pods-VVSBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVSBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		146980E7C68DAAB1C7EBA81E443BBB31 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		17662BA9B36B12D7A974F87B7AB3087C /* Pods-VVSBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VVSBox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1A6BA9560EB1B290FC9E705C5BDF65B3 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		1CADE8F75B7D7EBD21B0A5E2EC27FB9C /* CollectionCellHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CollectionCellHeader.h; sourceTree = "<group>"; };
+		221BF1EC90119F2A1D83AB65D97FAF67 /* NSArray+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WSExtension.m"; sourceTree = "<group>"; };
+		265DC3541A458F593B46AFA9EA098B4D /* NSMutableArray+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WSExtension.m"; sourceTree = "<group>"; };
+		2B146A0964E486AC724579FB1A9F1045 /* TimeConversionTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TimeConversionTool.h; sourceTree = "<group>"; };
+		38AFCDE7440FAF76D7C23B864F49EB1D /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		3AAC6D6316E16318F416229565ECDC9D /* Pods-VVSBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VVSBox_Tests.modulemap"; sourceTree = "<group>"; };
+		3DC44DBBCB829E137AF272A24C89E7FC /* Pods-VVSBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VVSBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		440FE14F13D7181E0D6577F5127EE65D /* NSData+NSHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSHash.m"; sourceTree = "<group>"; };
+		468912C80151A7E7912CC2FEC8A6691D /* Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		4A706D2D2B803EB6F7B2A91469509ACF /* Pods-VVSBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VVSBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C01125FB37AC8EA0A2622B1DF331E25 /* MoneyConversionTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MoneyConversionTool.h; sourceTree = "<group>"; };
+		5395D5472A39440C0C1B5A9C97B05C12 /* MoneyConversionTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MoneyConversionTool.m; sourceTree = "<group>"; };
+		596CFBDB32C08DEA2CE69D24A2E5BD6A /* VVSBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVSBox.xcconfig; sourceTree = "<group>"; };
+		5AB66BC0ED72F274FB9195E448F2AB55 /* Pods-VVSBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VVSBox_Example.modulemap"; sourceTree = "<group>"; };
+		5DD45D15C9EC5FF7E2E5B4E5CB2E22DB /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		5E594D2C7705C629ADA835999E3F6692 /* NSData+NSHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+NSHash.h"; sourceTree = "<group>"; };
+		5F20500887BEA92B3AE5C5CF57EBCF36 /* NSArray+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+WSExtension.h"; sourceTree = "<group>"; };
+		5F42A373DC11F8CFC3F351BA3770768D /* VVSBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVSBox-prefix.pch"; sourceTree = "<group>"; };
+		61A06199F4C028B902AA4CA97FF97DC1 /* Pods-VVSBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVSBox_Example-Info.plist"; sourceTree = "<group>"; };
+		673026A39AAC7FACD662322D93A91BE6 /* NSFileManager+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Extension.h"; sourceTree = "<group>"; };
+		693066ECE5E1605223189D3C6092D8F1 /* UIView+frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		74673E3B85FC68B6EA808567CF8EA57B /* VVSBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VVSBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7533B10A0CDA309BFD0CA602020801F6 /* Pods-VVSBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVSBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		75871C475FF77BCFA565528B395D1D40 /* ColorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ColorHeader.h; sourceTree = "<group>"; };
+		76F7C8FF8A3CCDFD4DEA8CC11222B263 /* NSString+NSHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHash.m"; sourceTree = "<group>"; };
+		7CEE7C2B78F670738D07436AB4229226 /* Pods-VVSBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VVSBox_Example-frameworks.sh"; sourceTree = "<group>"; };
+		84DE7450D7BF65C870DC4AA69EB62665 /* VVSBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VVSBox-Info.plist"; sourceTree = "<group>"; };
+		949F5E4A1B5AE7E0389A206C88797126 /* Pods-VVSBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVSBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		94AEEB0493E6BB23B22F46D677B1CC4E /* Pods-VVSBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVSBox_Tests-Info.plist"; sourceTree = "<group>"; };
+		988647E2CF59946CDE32D8063915B022 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		994F4F788DBA5D1B9D671DBB738828A9 /* VVSBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVSBox-umbrella.h"; sourceTree = "<group>"; };
+		9B0071494E7FE5B81EAC84F41F28374B /* NSString+NSHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHash.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8E5CE8923E01A714A7BAF7C39D1F7AF /* WSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WSSwizzle.m; sourceTree = "<group>"; };
+		A8EDEB41BF42016FBF366E81A6BA1B53 /* Pods-VVSBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVSBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A964B04FF7DF89EE114257CDC2618037 /* UserDefaultsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHeader.h; sourceTree = "<group>"; };
+		ADAB2A702DE2DA450F1D09ED5E538BEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B1B67AE95342B0BC34F61640D2D3F61B /* Pods_VVSBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VVSBox_Tests.framework; path = "Pods-VVSBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C66E9FBBDCAB4FFCA5F2E48AB3D384 /* ScreenHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ScreenHeader.h; sourceTree = "<group>"; };
+		B6D7D3F161F884168BBFB456188703E6 /* Pods-VVSBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VVSBox_Example-umbrella.h"; sourceTree = "<group>"; };
+		BE670946B0E9074487A51FDDCAC66782 /* VVSBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VVSBox.framework; path = VVSBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D76F0BD91698A2DCC5952177DB5C76 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		CB4448CE3C64FA50B6CDA42DA2F52D40 /* UIToolbar+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+Extension.h"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBC45D71B808F1BF00CF6E776D1A6D4C /* WSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSSwizzle.h; sourceTree = "<group>"; };
+		CC477FCF5EF1B403A975E9BB80A2FF43 /* VVSBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VVSBox-dummy.m"; sourceTree = "<group>"; };
+		CE56C852D97F720641E8075AA272A6CF /* UIView+frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		CF01CE5645BB1CE65E5FDEE36E7D5A99 /* Pods-VVSBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVSBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D520ABC575506865C2BEB20A2D0BCF7B /* Pods-VVSBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVSBox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D52488D3278DAE7091CF4AC1FD592751 /* Pods-VVSBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VVSBox_Tests-dummy.m"; sourceTree = "<group>"; };
+		DB10014DD903C31F7DB5F08D2063B3E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DB17178B5E0A5EB4596F72A8C12DEA36 /* UIToolbar+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+Extension.m"; sourceTree = "<group>"; };
+		DF7520EB6E3C8D5B44A7E8CF82AAF96C /* Pods_VVSBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VVSBox_Example.framework; path = "Pods-VVSBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48A7235B15D0CF79097DF32A4EF70F9 /* Pods-VVSBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VVSBox_Example-dummy.m"; sourceTree = "<group>"; };
+		F438C3DE0E0D001680F4BC02C3C0242F /* TimeConversionTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TimeConversionTool.m; sourceTree = "<group>"; };
+		FE7FF5E959AFDA81C0B375BE27F39FB4 /* NSFileManager+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B058F97600309DA3D65DB5CC5DB31DA /* Frameworks */ = {
+		6EBD090D4264E66BB9A65391EAADA21F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF34425C0374070BA9E52A59A2BC909F /* Foundation.framework in Frameworks */,
+				8D9D4E2A5082307163A3DBA9EB910541 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C2CFE143AA4AB38C392BF833DEF0C80 /* Frameworks */ = {
+		8F0EC0EE0BF098F37B292DA3206D7B88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				775DBE774375CF7AF53908CF40F0E746 /* Foundation.framework in Frameworks */,
+				A05169C2E0B77CE090C616CE48187D09 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFFE2BAC8C0F8B89028EFBB539C6BACB /* Frameworks */ = {
+		F927CEFF7CE5FCC8F0E4D464A1F945EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D70EDDA12EBBC2B7C45E7D32BB7CEF6 /* Foundation.framework in Frameworks */,
+				8C0D68A41DF82669B8617E4CD4585200 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BE0C60FCB66023BF8F4C4B3E3225F81 /* Money */ = {
+		03C1AE0B227F5B4B795A05D0A523C25F /* Pods-VVSBox_Example */ = {
 			isa = PBXGroup;
 			children = (
-				21286F016AE1E912C697ACF8446D7058 /* MoneyConversionTool.h */,
-				CACB200B38825ABD25C869F4DEF32CCC /* MoneyConversionTool.m */,
-			);
-			path = Money;
-			sourceTree = "<group>";
-		};
-		1A9D0C6CBA418CD2871CF3A826F92694 /* Pods-VVSBox_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				E2162B99CBC10D707AD1A50E018C93E7 /* Info.plist */,
-				808FC145F033178FD54295CEDBBFAEE3 /* Pods-VVSBox_Tests.modulemap */,
-				30BE800A5FFEF854534C3CA1AD87BDC9 /* Pods-VVSBox_Tests-acknowledgements.markdown */,
-				161E3A4E13DE4D15A7CC0293516CDB92 /* Pods-VVSBox_Tests-acknowledgements.plist */,
-				436F62D9129AFC4FF42A98153C32391D /* Pods-VVSBox_Tests-dummy.m */,
-				F70A80CB1CE9D67256C5B77E1FEC16B8 /* Pods-VVSBox_Tests-frameworks.sh */,
-				9F5692B13F23EFEBFD0C39DD425BE54A /* Pods-VVSBox_Tests-resources.sh */,
-				F1FB80B6653AC3FEDB7D6313BB3BE621 /* Pods-VVSBox_Tests-umbrella.h */,
-				39C043849E8494067287602516D64B8F /* Pods-VVSBox_Tests.debug.xcconfig */,
-				76E200F4F040A354E6B45B2F409E7917 /* Pods-VVSBox_Tests.release.xcconfig */,
-			);
-			name = "Pods-VVSBox_Tests";
-			path = "Target Support Files/Pods-VVSBox_Tests";
-			sourceTree = "<group>";
-		};
-		1DA40A3C11B218C0060C37649D483DD2 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				9D75C1FB1F0086A4B6EC58CE9E5D75D9 /* NSFileManager+Extension.h */,
-				B8EDF2C6EABAB800F7EF780B136C3F28 /* NSFileManager+Extension.m */,
-				CF0D015DCB5EBB861CCE3FA36C8E0A83 /* NSString+Extension.h */,
-				BD1279DDF3BF069C6D4B490F745EE419 /* NSString+Extension.m */,
-				32990AE5D6A645F755D78ACC7B6D2CF0 /* UIBarButtonItem+Extension.h */,
-				1A368E254CF1634CC7F1CE504D2FA6DB /* UIBarButtonItem+Extension.m */,
-				4B546DD1E93A1B9912D65D7DBA0B2A67 /* UITextView+Placeholder.h */,
-				9A58F65E79A9F216FAE4D7F1183C6C71 /* UITextView+Placeholder.m */,
-				DC22E7D9AEED795B6D38C437EDA97E1C /* UIToolbar+Extension.h */,
-				2FAE47E8149A4D7EBD604DDD26834C25 /* UIToolbar+Extension.m */,
-				E061DBB5CCBCE363521B93B13F450A4F /* UIView+frame.h */,
-				267C3AACF3605AC27B9A8BD4233CC965 /* UIView+frame.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		21C33656C9AF86BD67D2805CD4F96A1B /* Pods-VVSBox_Example */ = {
-			isa = PBXGroup;
-			children = (
-				792A430946A16C92990070EDCB82D397 /* Info.plist */,
-				DC1524FC09810BCF8A6499E2AF33BA58 /* Pods-VVSBox_Example.modulemap */,
-				B2C09217E3E91CA82CC1F9004BB247BB /* Pods-VVSBox_Example-acknowledgements.markdown */,
-				8CF45A61BD49C8DED5790A10E21A5159 /* Pods-VVSBox_Example-acknowledgements.plist */,
-				D094ADEEFF5915212B6D00466D76B263 /* Pods-VVSBox_Example-dummy.m */,
-				B979C1A508F195AC316C8E36E4DFF90C /* Pods-VVSBox_Example-frameworks.sh */,
-				8FD716644CA4C2A742C9DF648F50ABDA /* Pods-VVSBox_Example-resources.sh */,
-				B04253B66D9BC54940989F6CB3965D97 /* Pods-VVSBox_Example-umbrella.h */,
-				B2BE711B44F5608FF5E3228EFA8FB950 /* Pods-VVSBox_Example.debug.xcconfig */,
-				B393E3300953D84891845145AF7FD506 /* Pods-VVSBox_Example.release.xcconfig */,
+				5AB66BC0ED72F274FB9195E448F2AB55 /* Pods-VVSBox_Example.modulemap */,
+				3DC44DBBCB829E137AF272A24C89E7FC /* Pods-VVSBox_Example-acknowledgements.markdown */,
+				7533B10A0CDA309BFD0CA602020801F6 /* Pods-VVSBox_Example-acknowledgements.plist */,
+				E48A7235B15D0CF79097DF32A4EF70F9 /* Pods-VVSBox_Example-dummy.m */,
+				7CEE7C2B78F670738D07436AB4229226 /* Pods-VVSBox_Example-frameworks.sh */,
+				61A06199F4C028B902AA4CA97FF97DC1 /* Pods-VVSBox_Example-Info.plist */,
+				B6D7D3F161F884168BBFB456188703E6 /* Pods-VVSBox_Example-umbrella.h */,
+				949F5E4A1B5AE7E0389A206C88797126 /* Pods-VVSBox_Example.debug.xcconfig */,
+				D520ABC575506865C2BEB20A2D0BCF7B /* Pods-VVSBox_Example.release.xcconfig */,
 			);
 			name = "Pods-VVSBox_Example";
 			path = "Target Support Files/Pods-VVSBox_Example";
 			sourceTree = "<group>";
 		};
-		2E3C734B95F8B6FC692F5B9C7681E932 /* Classes */ = {
+		087E056D49591CAFB3BA2A24FFE9265D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1DA40A3C11B218C0060C37649D483DD2 /* Category */,
-				AB93301D2AF29225B69FD958A0EACE44 /* Date */,
-				BE4B30332AE950D29D9EC6BCEB9BB3AA /* Macro */,
-				0BE0C60FCB66023BF8F4C4B3E3225F81 /* Money */,
-				57450B2C815C50D63FB39A6E568E3962 /* NSHash */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		57450B2C815C50D63FB39A6E568E3962 /* NSHash */ = {
-			isa = PBXGroup;
-			children = (
-				32B5E22002C93AC984F28F5161619167 /* NSData+NSHash.h */,
-				A6D97C2F24E94774E1679BD41AB65DAD /* NSData+NSHash.m */,
-				BE55564E9507BA8B0FD98C75275F4F58 /* NSString+NSHash.h */,
-				5CF7BD1EF78ED929480FCC260D84D8B3 /* NSString+NSHash.m */,
-			);
-			path = NSHash;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F02D2679E726E2BB8855B58B519FDEA8 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C9B6ABDFFFE914D816FB7FBB20EC4F83 /* Products */,
-				E255CDBEC355A4E030723FB6B6BDC3B3 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		89893471995206BB0DD75C079B6D8D5D /* VVSBox */ = {
-			isa = PBXGroup;
-			children = (
-				F4BE333A116374FBBD60986E16FBCBA2 /* Support Files */,
-				8DD2391D5CB9AD526FE8FBF415B9FB02 /* VVSBox */,
-			);
-			name = VVSBox;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8DD2391D5CB9AD526FE8FBF415B9FB02 /* VVSBox */ = {
-			isa = PBXGroup;
-			children = (
-				2E3C734B95F8B6FC692F5B9C7681E932 /* Classes */,
-			);
-			path = VVSBox;
-			sourceTree = "<group>";
-		};
-		AB93301D2AF29225B69FD958A0EACE44 /* Date */ = {
-			isa = PBXGroup;
-			children = (
-				02767955525E38BCA2A32A7647B122F4 /* TimeConversionTool.h */,
-				F5CE0784687C19257E39F1BDF05CB5A0 /* TimeConversionTool.m */,
-			);
-			path = Date;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BE4B30332AE950D29D9EC6BCEB9BB3AA /* Macro */ = {
-			isa = PBXGroup;
-			children = (
-				AFDB9A50E24B10F8CA41B0C43192937C /* CollectionCellHeader.h */,
-				A9A13A642457EC6415CD25A5C5C7A669 /* ColorHeader.h */,
-				A660F42E1B1700313CBE9C8DEF5B20D0 /* Header.h */,
-				AD56A891D7F932CD4E4F9676564D0930 /* ScreenHeader.h */,
-				1F543F7FE6CC95A07E98B7C48B83E9FE /* UserDefaultsHeader.h */,
-			);
-			path = Macro;
-			sourceTree = "<group>";
-		};
-		C9B6ABDFFFE914D816FB7FBB20EC4F83 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7F67DCE812F270745CC57A445ED80E28 /* Pods_VVSBox_Example.framework */,
-				00ECC8FF19DBCBD5B6194A47A6E04B33 /* Pods_VVSBox_Tests.framework */,
-				F504C12B882CE6B1EDF073600162793A /* VVSBox.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E255CDBEC355A4E030723FB6B6BDC3B3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				21C33656C9AF86BD67D2805CD4F96A1B /* Pods-VVSBox_Example */,
-				1A9D0C6CBA418CD2871CF3A826F92694 /* Pods-VVSBox_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F02D2679E726E2BB8855B58B519FDEA8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				89893471995206BB0DD75C079B6D8D5D /* VVSBox */,
+				76F51F16D2BA77A521403497DFEBA447 /* VVSBox */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F4BE333A116374FBBD60986E16FBCBA2 /* Support Files */ = {
+		0911BD457C8BEC8689A5F8E008359409 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A281D68749509247C28C070C61006FA5 /* Info.plist */,
-				D12044D2CFCA182E9BD2BB5D519D3AB8 /* VVSBox.modulemap */,
-				2363B6D5EACCBAB3384EBB83CF0A6BB9 /* VVSBox.xcconfig */,
-				72E5F005406C0F6282294B9946FE924A /* VVSBox-dummy.m */,
-				44F1207E340641BA30909BDAF07728DA /* VVSBox-prefix.pch */,
-				6D5D30E4100D6F863827D1C5ADEDA2D9 /* VVSBox-umbrella.h */,
+				08763F3076CDD80B85506E6B696FFE2D /* VVSBox.modulemap */,
+				596CFBDB32C08DEA2CE69D24A2E5BD6A /* VVSBox.xcconfig */,
+				CC477FCF5EF1B403A975E9BB80A2FF43 /* VVSBox-dummy.m */,
+				84DE7450D7BF65C870DC4AA69EB62665 /* VVSBox-Info.plist */,
+				5F42A373DC11F8CFC3F351BA3770768D /* VVSBox-prefix.pch */,
+				994F4F788DBA5D1B9D671DBB738828A9 /* VVSBox-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/VVSBox";
 			sourceTree = "<group>";
 		};
+		3F9739E897298AD8B3E9D7E5536FE046 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				2B146A0964E486AC724579FB1A9F1045 /* TimeConversionTool.h */,
+				F438C3DE0E0D001680F4BC02C3C0242F /* TimeConversionTool.m */,
+			);
+			name = Date;
+			path = VVSBox/Classes/Date;
+			sourceTree = "<group>";
+		};
+		41FEE936B2BF76829C3DF74E640563D6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5F20500887BEA92B3AE5C5CF57EBCF36 /* NSArray+WSExtension.h */,
+				221BF1EC90119F2A1D83AB65D97FAF67 /* NSArray+WSExtension.m */,
+				673026A39AAC7FACD662322D93A91BE6 /* NSFileManager+Extension.h */,
+				FE7FF5E959AFDA81C0B375BE27F39FB4 /* NSFileManager+Extension.m */,
+				0C1578D278AC8ACFFC0E2029AF8B11B1 /* NSMutableArray+WSExtension.h */,
+				265DC3541A458F593B46AFA9EA098B4D /* NSMutableArray+WSExtension.m */,
+				1A6BA9560EB1B290FC9E705C5BDF65B3 /* NSString+Extension.h */,
+				38AFCDE7440FAF76D7C23B864F49EB1D /* NSString+Extension.m */,
+				5DD45D15C9EC5FF7E2E5B4E5CB2E22DB /* UIBarButtonItem+Extension.h */,
+				C2D76F0BD91698A2DCC5952177DB5C76 /* UIBarButtonItem+Extension.m */,
+				988647E2CF59946CDE32D8063915B022 /* UITextView+Placeholder.h */,
+				146980E7C68DAAB1C7EBA81E443BBB31 /* UITextView+Placeholder.m */,
+				CB4448CE3C64FA50B6CDA42DA2F52D40 /* UIToolbar+Extension.h */,
+				DB17178B5E0A5EB4596F72A8C12DEA36 /* UIToolbar+Extension.m */,
+				CE56C852D97F720641E8075AA272A6CF /* UIView+frame.h */,
+				693066ECE5E1605223189D3C6092D8F1 /* UIView+frame.m */,
+			);
+			name = Category;
+			path = VVSBox/Classes/Category;
+			sourceTree = "<group>";
+		};
+		43365A346106837D2DC14A4915466AC4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ADAB2A702DE2DA450F1D09ED5E538BEB /* LICENSE */,
+				DB10014DD903C31F7DB5F08D2063B3E4 /* README.md */,
+				74673E3B85FC68B6EA808567CF8EA57B /* VVSBox.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4C9AB54A4B69650921FEF848A42E3DF1 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				1CADE8F75B7D7EBD21B0A5E2EC27FB9C /* CollectionCellHeader.h */,
+				75871C475FF77BCFA565528B395D1D40 /* ColorHeader.h */,
+				468912C80151A7E7912CC2FEC8A6691D /* Header.h */,
+				B4C66E9FBBDCAB4FFCA5F2E48AB3D384 /* ScreenHeader.h */,
+				A964B04FF7DF89EE114257CDC2618037 /* UserDefaultsHeader.h */,
+			);
+			name = Macro;
+			path = VVSBox/Classes/Macro;
+			sourceTree = "<group>";
+		};
+		4DEA708E684D40D1FF750C45CEC68F86 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C1AE0B227F5B4B795A05D0A523C25F /* Pods-VVSBox_Example */,
+				AF2CE1CC8A1C964950E3A25D7A81415D /* Pods-VVSBox_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6D1477E67197F94ADFF38FFEBB2ADEC0 /* Swizzle */ = {
+			isa = PBXGroup;
+			children = (
+				CBC45D71B808F1BF00CF6E776D1A6D4C /* WSSwizzle.h */,
+				A8E5CE8923E01A714A7BAF7C39D1F7AF /* WSSwizzle.m */,
+			);
+			name = Swizzle;
+			path = VVSBox/Classes/Swizzle;
+			sourceTree = "<group>";
+		};
+		76F51F16D2BA77A521403497DFEBA447 /* VVSBox */ = {
+			isa = PBXGroup;
+			children = (
+				41FEE936B2BF76829C3DF74E640563D6 /* Category */,
+				3F9739E897298AD8B3E9D7E5536FE046 /* Date */,
+				4C9AB54A4B69650921FEF848A42E3DF1 /* Macro */,
+				B16EBCB9248E20651914A36B90687AF6 /* Money */,
+				FAB6E15CE7FD34F4762026CE7DED1DE2 /* NSHash */,
+				43365A346106837D2DC14A4915466AC4 /* Pod */,
+				0911BD457C8BEC8689A5F8E008359409 /* Support Files */,
+				6D1477E67197F94ADFF38FFEBB2ADEC0 /* Swizzle */,
+			);
+			name = VVSBox;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9BF8522692BC4C40012075788DE7D6E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7520EB6E3C8D5B44A7E8CF82AAF96C /* Pods_VVSBox_Example.framework */,
+				B1B67AE95342B0BC34F61640D2D3F61B /* Pods_VVSBox_Tests.framework */,
+				BE670946B0E9074487A51FDDCAC66782 /* VVSBox.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF2CE1CC8A1C964950E3A25D7A81415D /* Pods-VVSBox_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3AAC6D6316E16318F416229565ECDC9D /* Pods-VVSBox_Tests.modulemap */,
+				4A706D2D2B803EB6F7B2A91469509ACF /* Pods-VVSBox_Tests-acknowledgements.markdown */,
+				A8EDEB41BF42016FBF366E81A6BA1B53 /* Pods-VVSBox_Tests-acknowledgements.plist */,
+				D52488D3278DAE7091CF4AC1FD592751 /* Pods-VVSBox_Tests-dummy.m */,
+				94AEEB0493E6BB23B22F46D677B1CC4E /* Pods-VVSBox_Tests-Info.plist */,
+				17662BA9B36B12D7A974F87B7AB3087C /* Pods-VVSBox_Tests-umbrella.h */,
+				CF01CE5645BB1CE65E5FDEE36E7D5A99 /* Pods-VVSBox_Tests.debug.xcconfig */,
+				10C3E93D647C0507AE0D17217629CB95 /* Pods-VVSBox_Tests.release.xcconfig */,
+			);
+			name = "Pods-VVSBox_Tests";
+			path = "Target Support Files/Pods-VVSBox_Tests";
+			sourceTree = "<group>";
+		};
+		B16EBCB9248E20651914A36B90687AF6 /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				4C01125FB37AC8EA0A2622B1DF331E25 /* MoneyConversionTool.h */,
+				5395D5472A39440C0C1B5A9C97B05C12 /* MoneyConversionTool.m */,
+			);
+			name = Money;
+			path = VVSBox/Classes/Money;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				087E056D49591CAFB3BA2A24FFE9265D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9BF8522692BC4C40012075788DE7D6E4 /* Products */,
+				4DEA708E684D40D1FF750C45CEC68F86 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAB6E15CE7FD34F4762026CE7DED1DE2 /* NSHash */ = {
+			isa = PBXGroup;
+			children = (
+				5E594D2C7705C629ADA835999E3F6692 /* NSData+NSHash.h */,
+				440FE14F13D7181E0D6577F5127EE65D /* NSData+NSHash.m */,
+				9B0071494E7FE5B81EAC84F41F28374B /* NSString+NSHash.h */,
+				76F7C8FF8A3CCDFD4DEA8CC11222B263 /* NSString+NSHash.m */,
+			);
+			name = NSHash;
+			path = VVSBox/Classes/NSHash;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9D6496CD4351BD579C140FF229FFA9C1 /* Headers */ = {
+		4E9BCDC07A3DC7CAE6F8285F5986F252 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6007F445670FDB836C248B98C831D092 /* CollectionCellHeader.h in Headers */,
-				395FD4E27794A966D192E97CB6C2660C /* ColorHeader.h in Headers */,
-				9D24F1540655C719BC632AF66CEF18D7 /* Header.h in Headers */,
-				DC7E5153B8A72F10705B9FDEC1A51AF2 /* MoneyConversionTool.h in Headers */,
-				5F00738193FC646525D9C922CB720719 /* NSData+NSHash.h in Headers */,
-				6FE4BEB519336A4481848F0AA2425ED2 /* NSFileManager+Extension.h in Headers */,
-				8D1524F696A3BD7C633E8F930114D26D /* NSString+Extension.h in Headers */,
-				5BF0DDAFA436BF4DD75282FBF956261C /* NSString+NSHash.h in Headers */,
-				BC67BA0671335A421896FEA9A3A8B671 /* ScreenHeader.h in Headers */,
-				A056CFB8474E20939339F00CC54EE5F1 /* TimeConversionTool.h in Headers */,
-				CD036147EB517F32159E182050CF1962 /* UIBarButtonItem+Extension.h in Headers */,
-				6795A8C3C5DF4046A1643419C895ECF5 /* UITextView+Placeholder.h in Headers */,
-				159E844491940F1010D8A3A1D48AD29F /* UIToolbar+Extension.h in Headers */,
-				52F94F93EF0E6DE39C6A1066B482B365 /* UIView+frame.h in Headers */,
-				2A24CEAEB0E983B9C143ED074AA36C49 /* UserDefaultsHeader.h in Headers */,
-				9910D5DF0C6281AAA950A9D40F1D175C /* VVSBox-umbrella.h in Headers */,
+				6F69C6D0D16C06EED21EF234DC9DB91B /* Pods-VVSBox_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5630FF5993DFA4FCF1BDDF44BAF54FA /* Headers */ = {
+		55D255ABDB28D583F1FB0671AE8E0D4C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBBA17B81BA5FA97797CB9C32EAC30D3 /* Pods-VVSBox_Tests-umbrella.h in Headers */,
+				C82D158D0861462A10D31F2470DD7E20 /* CollectionCellHeader.h in Headers */,
+				C96AF073EFA0E43A0A3ACBFCA9B18114 /* ColorHeader.h in Headers */,
+				B4AB5877ABB7058D55E28706782E3E9E /* Header.h in Headers */,
+				A44ADDEDE34B9F2B5977ECC772B7A13D /* MoneyConversionTool.h in Headers */,
+				5488DDDD57FEB5152567B681D7F81F50 /* NSArray+WSExtension.h in Headers */,
+				EB95478F50BB294940E17174B478ADD4 /* NSData+NSHash.h in Headers */,
+				68C5778CB4CB15217CD5BDFEED93A2CD /* NSFileManager+Extension.h in Headers */,
+				3D94DFF5D9042A1F727DB8D989439DA3 /* NSMutableArray+WSExtension.h in Headers */,
+				A6D5544B070D6DDCFD80728D2EEDC19F /* NSString+Extension.h in Headers */,
+				F6E84799ACF0425BA05AFF4640EFB8DA /* NSString+NSHash.h in Headers */,
+				E77EDE3559043D4402F7956EE5DCE10B /* ScreenHeader.h in Headers */,
+				3A987ED77DF5D155FA4E87D90F2A12EE /* TimeConversionTool.h in Headers */,
+				53BD781CFBD34312957E9B8066BB8FC9 /* UIBarButtonItem+Extension.h in Headers */,
+				525FFC690D1A28CBD30BF108E0EEA5FF /* UITextView+Placeholder.h in Headers */,
+				ED494B0ECE47A00EFC9C3BDDF39A6958 /* UIToolbar+Extension.h in Headers */,
+				16A45DFBFCDF76919DC9F5A302A21941 /* UIView+frame.h in Headers */,
+				6DF6387B888931B977F08884BCB2FAAB /* UserDefaultsHeader.h in Headers */,
+				8C80769A9B547568434AEE2091043218 /* VVSBox-umbrella.h in Headers */,
+				808A84C600B4EF4B0770341DC4440CDE /* WSSwizzle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E998981F1FF2846528A335EFA9D5DC72 /* Headers */ = {
+		B67886E056478A89C36349A3EDFF23AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B407010B13BDC2657F59E49330B7337 /* Pods-VVSBox_Example-umbrella.h in Headers */,
+				01D982032FAEF730D6B6627F6FC870F3 /* Pods-VVSBox_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		ADBA615CCB12415F575D27DD33A225B3 /* Pods-VVSBox_Tests */ = {
+		449CC8145F1AF8301CA07DA310462A9F /* Pods-VVSBox_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A2795745DF1ABA3992C5CDAECBFEBC0 /* Build configuration list for PBXNativeTarget "Pods-VVSBox_Tests" */;
+			buildConfigurationList = CED3195342C498888FBF4B647A21D5CA /* Build configuration list for PBXNativeTarget "Pods-VVSBox_Tests" */;
 			buildPhases = (
-				B937F2258E9EB7B6676C86C4DD4265AA /* Sources */,
-				8B058F97600309DA3D65DB5CC5DB31DA /* Frameworks */,
-				A5630FF5993DFA4FCF1BDDF44BAF54FA /* Headers */,
+				4E9BCDC07A3DC7CAE6F8285F5986F252 /* Headers */,
+				884726FB65A8FE2D60D2FEF457E25ED4 /* Sources */,
+				6EBD090D4264E66BB9A65391EAADA21F /* Frameworks */,
+				085DAF745E25F4B74892F311C9E70376 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E7FA8D385F2EB26C574E8F46F81E99A6 /* PBXTargetDependency */,
 			);
 			name = "Pods-VVSBox_Tests";
 			productName = "Pods-VVSBox_Tests";
-			productReference = 00ECC8FF19DBCBD5B6194A47A6E04B33 /* Pods_VVSBox_Tests.framework */;
+			productReference = B1B67AE95342B0BC34F61640D2D3F61B /* Pods_VVSBox_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CD610872A501392DF65C8767D5DAD1E8 /* VVSBox */ = {
+		810462893D74F07C1878953FB609A991 /* Pods-VVSBox_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C470C2979A29290953E1B276C8675D2 /* Build configuration list for PBXNativeTarget "VVSBox" */;
+			buildConfigurationList = 678BB685EEE5B6D16E920C117D7FD620 /* Build configuration list for PBXNativeTarget "Pods-VVSBox_Example" */;
 			buildPhases = (
-				7E31A293D626C6719CE54937F7AE783D /* Sources */,
-				AFFE2BAC8C0F8B89028EFBB539C6BACB /* Frameworks */,
-				9D6496CD4351BD579C140FF229FFA9C1 /* Headers */,
+				B67886E056478A89C36349A3EDFF23AA /* Headers */,
+				0D9D16DA52775AAE436F0DCC0711062A /* Sources */,
+				8F0EC0EE0BF098F37B292DA3206D7B88 /* Frameworks */,
+				A8F6AA25A1E6D1E82DF5E758FE9991EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C945BCE1012799604B05B15D5F7BB4A /* PBXTargetDependency */,
+			);
+			name = "Pods-VVSBox_Example";
+			productName = "Pods-VVSBox_Example";
+			productReference = DF7520EB6E3C8D5B44A7E8CF82AAF96C /* Pods_VVSBox_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC48B81360A2F57FE04F1F4207F1AB6D /* VVSBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4033ABF699162862933CA132C09EE31 /* Build configuration list for PBXNativeTarget "VVSBox" */;
+			buildPhases = (
+				55D255ABDB28D583F1FB0671AE8E0D4C /* Headers */,
+				FC13B27CB09FF12D1B06FA12244111E6 /* Sources */,
+				F927CEFF7CE5FCC8F0E4D464A1F945EE /* Frameworks */,
+				333E384938CF6AC4C392212376BB5797 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -410,442 +466,476 @@
 			);
 			name = VVSBox;
 			productName = VVSBox;
-			productReference = F504C12B882CE6B1EDF073600162793A /* VVSBox.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F5A29367464B9A5711DA8488EE5A823A /* Pods-VVSBox_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0BAA911B0E9CEC6F73D1F96526748F37 /* Build configuration list for PBXNativeTarget "Pods-VVSBox_Example" */;
-			buildPhases = (
-				06EFCD6A75B552F91E89B0B947D3A7F8 /* Sources */,
-				8C2CFE143AA4AB38C392BF833DEF0C80 /* Frameworks */,
-				E998981F1FF2846528A335EFA9D5DC72 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1B108BFD2F2C2A9B1F81FC371162D49A /* PBXTargetDependency */,
-			);
-			name = "Pods-VVSBox_Example";
-			productName = "Pods-VVSBox_Example";
-			productReference = 7F67DCE812F270745CC57A445ED80E28 /* Pods_VVSBox_Example.framework */;
+			productReference = BE670946B0E9074487A51FDDCAC66782 /* VVSBox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C9B6ABDFFFE914D816FB7FBB20EC4F83 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9BF8522692BC4C40012075788DE7D6E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5A29367464B9A5711DA8488EE5A823A /* Pods-VVSBox_Example */,
-				ADBA615CCB12415F575D27DD33A225B3 /* Pods-VVSBox_Tests */,
-				CD610872A501392DF65C8767D5DAD1E8 /* VVSBox */,
+				810462893D74F07C1878953FB609A991 /* Pods-VVSBox_Example */,
+				449CC8145F1AF8301CA07DA310462A9F /* Pods-VVSBox_Tests */,
+				DC48B81360A2F57FE04F1F4207F1AB6D /* VVSBox */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		085DAF745E25F4B74892F311C9E70376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333E384938CF6AC4C392212376BB5797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F6AA25A1E6D1E82DF5E758FE9991EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		06EFCD6A75B552F91E89B0B947D3A7F8 /* Sources */ = {
+		0D9D16DA52775AAE436F0DCC0711062A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD98B7C1A1D311B0309466549BDEE0D0 /* Pods-VVSBox_Example-dummy.m in Sources */,
+				8DEA680EA7EFEC5AB4B93FF758274883 /* Pods-VVSBox_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E31A293D626C6719CE54937F7AE783D /* Sources */ = {
+		884726FB65A8FE2D60D2FEF457E25ED4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E9B544A17074E0CE7429DD4280E901A /* MoneyConversionTool.m in Sources */,
-				5B8BA3479BCCFCCFCA2AA90EDFFAC6FE /* NSData+NSHash.m in Sources */,
-				C6E3E1CBB3A04B4F9CA5BDC5AC799DD9 /* NSFileManager+Extension.m in Sources */,
-				A0F50A916020DE7BDD31014841C46C36 /* NSString+Extension.m in Sources */,
-				0F52DF1D245CDFDD4E17D63A982DD6AE /* NSString+NSHash.m in Sources */,
-				498CE661566524C9B84352EAFE111505 /* TimeConversionTool.m in Sources */,
-				7E38FD3AA31CAA2115B4658323C1A86D /* UIBarButtonItem+Extension.m in Sources */,
-				356EDD53010FCE436FA142F26916AEDA /* UITextView+Placeholder.m in Sources */,
-				B7F066801482AF57117A63F352160432 /* UIToolbar+Extension.m in Sources */,
-				24899E5F02D60B797515DB58C8B60097 /* UIView+frame.m in Sources */,
-				27DFD6641706632F9DD67E9AF0252C39 /* VVSBox-dummy.m in Sources */,
+				0277E604BFDB451F447A07189F19346D /* Pods-VVSBox_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B937F2258E9EB7B6676C86C4DD4265AA /* Sources */ = {
+		FC13B27CB09FF12D1B06FA12244111E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F01D1C9DF469966D3EC527FD383E941 /* Pods-VVSBox_Tests-dummy.m in Sources */,
+				E0CBC9B0154D2368D98E1BAC078A7F87 /* MoneyConversionTool.m in Sources */,
+				44C19A9542279FF2B390180F15CE116D /* NSArray+WSExtension.m in Sources */,
+				10D579FC6C62E1FC237FAD4A1B4995B2 /* NSData+NSHash.m in Sources */,
+				31E7A552E2C8E7295FFE2F798D78A291 /* NSFileManager+Extension.m in Sources */,
+				72F82CAF1826B1E5063010495A845F3B /* NSMutableArray+WSExtension.m in Sources */,
+				E6041A391CD21CE223355B0158A6DB0F /* NSString+Extension.m in Sources */,
+				1EAA6F3AFD368620C20FC0DE2391B59C /* NSString+NSHash.m in Sources */,
+				004FF25114267810A54699C7C3D1A2BE /* TimeConversionTool.m in Sources */,
+				D444F82F822B2A29C96E9D75DBF60C4B /* UIBarButtonItem+Extension.m in Sources */,
+				7FA640A536EC8E3327937DAFF989953C /* UITextView+Placeholder.m in Sources */,
+				C61ECF02A7F1220CC9FFD6687C3AB344 /* UIToolbar+Extension.m in Sources */,
+				6C96BEED9BF9FB1C21DFDEBF87515FD5 /* UIView+frame.m in Sources */,
+				D2BFEFC9668744AA3A50859C084AB938 /* VVSBox-dummy.m in Sources */,
+				57BABC76F942FE7F3C4C7016F5272DEA /* WSSwizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1B108BFD2F2C2A9B1F81FC371162D49A /* PBXTargetDependency */ = {
+		1C945BCE1012799604B05B15D5F7BB4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VVSBox;
-			target = CD610872A501392DF65C8767D5DAD1E8 /* VVSBox */;
-			targetProxy = 0BFADE17780F529ECB36A46BE69763FE /* PBXContainerItemProxy */;
+			target = DC48B81360A2F57FE04F1F4207F1AB6D /* VVSBox */;
+			targetProxy = 18B4ED2D6C05CC77063938A4613B967C /* PBXContainerItemProxy */;
+		};
+		E7FA8D385F2EB26C574E8F46F81E99A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VVSBox_Example";
+			target = 810462893D74F07C1878953FB609A991 /* Pods-VVSBox_Example */;
+			targetProxy = 5F78036E38A11B8FC212074124381037 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		324DCD2F758C58589D9E6482ECF02D09 /* Debug */ = {
+		034918480732947E3AD2F3A5BC442E44 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39C043849E8494067287602516D64B8F /* Pods-VVSBox_Tests.debug.xcconfig */;
+			baseConfigurationReference = 596CFBDB32C08DEA2CE69D24A2E5BD6A /* VVSBox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VVSBox_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/VVSBox/VVSBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VVSBox/VVSBox-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VVSBox_Tests/Pods-VVSBox_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VVSBox_Tests;
+				MODULEMAP_FILE = "Target Support Files/VVSBox/VVSBox.modulemap";
+				PRODUCT_MODULE_NAME = VVSBox;
+				PRODUCT_NAME = VVSBox;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		03A671DECE8A67F4C8D128CD55F3A5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 596CFBDB32C08DEA2CE69D24A2E5BD6A /* VVSBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VVSBox/VVSBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VVSBox/VVSBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VVSBox/VVSBox.modulemap";
+				PRODUCT_MODULE_NAME = VVSBox;
+				PRODUCT_NAME = VVSBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		07B3DBAD4E15EC23FB08F6B8B4C9D9F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		652D23F0F99AC0CE0D55AE4FDB1CED01 /* Release */ = {
+		2EB9E01078ACC4BACDF3E1FD13A654A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B393E3300953D84891845145AF7FD506 /* Pods-VVSBox_Example.release.xcconfig */;
+			baseConfigurationReference = 10C3E93D647C0507AE0D17217629CB95 /* Pods-VVSBox_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VVSBox_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VVSBox_Example/Pods-VVSBox_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VVSBox_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		932B78F34E11E8330F12ED1E000C1275 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2363B6D5EACCBAB3384EBB83CF0A6BB9 /* VVSBox.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VVSBox/VVSBox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VVSBox/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VVSBox/VVSBox.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = VVSBox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B313D042B8AC63BE4DA6AD4423CB5DB2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2363B6D5EACCBAB3384EBB83CF0A6BB9 /* VVSBox.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VVSBox/VVSBox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VVSBox/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VVSBox/VVSBox.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = VVSBox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F26892A9D3F7C47245C349CBF3012190 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2BE711B44F5608FF5E3228EFA8FB950 /* Pods-VVSBox_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VVSBox_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VVSBox_Example/Pods-VVSBox_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VVSBox_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FAB3FFB71AF92ECE89727F94A5585AA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76E200F4F040A354E6B45B2F409E7917 /* Pods-VVSBox_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VVSBox_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-VVSBox_Tests/Pods-VVSBox_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-VVSBox_Tests/Pods-VVSBox_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VVSBox_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		676CF7B68755AE8C5B0938B03250C356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949F5E4A1B5AE7E0389A206C88797126 /* Pods-VVSBox_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VVSBox_Example/Pods-VVSBox_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VVSBox_Example/Pods-VVSBox_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E329998C0A0072E4AA2E292EE806970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D520ABC575506865C2BEB20A2D0BCF7B /* Pods-VVSBox_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VVSBox_Example/Pods-VVSBox_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VVSBox_Example/Pods-VVSBox_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E16C32655ED263D0783540A4C540F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF01CE5645BB1CE65E5FDEE36E7D5A99 /* Pods-VVSBox_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VVSBox_Tests/Pods-VVSBox_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VVSBox_Tests/Pods-VVSBox_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF54A72E467D2FE6A514F52E26280B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BAA911B0E9CEC6F73D1F96526748F37 /* Build configuration list for PBXNativeTarget "Pods-VVSBox_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F26892A9D3F7C47245C349CBF3012190 /* Debug */,
-				652D23F0F99AC0CE0D55AE4FDB1CED01 /* Release */,
+				07B3DBAD4E15EC23FB08F6B8B4C9D9F2 /* Debug */,
+				FF54A72E467D2FE6A514F52E26280B06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		678BB685EEE5B6D16E920C117D7FD620 /* Build configuration list for PBXNativeTarget "Pods-VVSBox_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				676CF7B68755AE8C5B0938B03250C356 /* Debug */,
+				6E329998C0A0072E4AA2E292EE806970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A2795745DF1ABA3992C5CDAECBFEBC0 /* Build configuration list for PBXNativeTarget "Pods-VVSBox_Tests" */ = {
+		CED3195342C498888FBF4B647A21D5CA /* Build configuration list for PBXNativeTarget "Pods-VVSBox_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				324DCD2F758C58589D9E6482ECF02D09 /* Debug */,
-				FAB3FFB71AF92ECE89727F94A5585AA3 /* Release */,
+				8E16C32655ED263D0783540A4C540F06 /* Debug */,
+				2EB9E01078ACC4BACDF3E1FD13A654A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C470C2979A29290953E1B276C8675D2 /* Build configuration list for PBXNativeTarget "VVSBox" */ = {
+		E4033ABF699162862933CA132C09EE31 /* Build configuration list for PBXNativeTarget "VVSBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				932B78F34E11E8330F12ED1E000C1275 /* Debug */,
-				B313D042B8AC63BE4DA6AD4423CB5DB2 /* Release */,
+				03A671DECE8A67F4C8D128CD55F3A5E6 /* Debug */,
+				034918480732947E3AD2F3A5BC442E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

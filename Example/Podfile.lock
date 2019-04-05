@@ -1,16 +1,16 @@
 PODS:
-  - VVSBox (0.1.0)
+  - VVSBox (0.4.3)
 
 DEPENDENCIES:
   - VVSBox (from `../`)
 
 EXTERNAL SOURCES:
   VVSBox:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  VVSBox: db5b51ade92abb5f0d8c188f11f7959d78406d35
+  VVSBox: 76c6177f0e0a8e2e87af9ced719d1000a6b54580
 
 PODFILE CHECKSUM: f6e0eae3667053a36a2a8424b6cb4e768413adfd
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.6.1
