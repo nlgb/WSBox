@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WSBox_Example' do
+  pod 'WSBox', :path => '../'
+
+  target 'WSBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
