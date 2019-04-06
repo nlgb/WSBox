@@ -1,8 +1,8 @@
 
 
-#import "UIView+frame.h"
+#import "UIView+WSFrame.h"
 
-@implementation UIView (frame)
+@implementation UIView (WSFrame)
 
 + (instancetype)viewFromXib
 {

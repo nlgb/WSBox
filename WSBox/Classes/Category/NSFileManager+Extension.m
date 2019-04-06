@@ -7,7 +7,7 @@
 //
 
 #import "NSFileManager+Extension.h"
-#import "NSString+Extension.h"
+#import "NSString+WSExtension.h"
 
 @implementation NSFileManager (Extension)
 + (NSInteger)removeItemFromCachesWithPostfix:(NSString *)postfix {

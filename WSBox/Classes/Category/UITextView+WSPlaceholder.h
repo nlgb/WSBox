@@ -1,5 +1,5 @@
 //
-//  UITextView+Placeholder.h
+//  UITextView+WSPlaceholder.h
 //  AliyunSales
 //
 //  Created by wangsong on 16/6/28.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITextView (Placeholder)
+@interface UITextView (WSPlaceholder)
 /**
  *  返回一个带占位文字的textView
  *

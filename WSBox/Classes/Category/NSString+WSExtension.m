@@ -1,14 +1,14 @@
 //
-//  NSString+Extension.m
+//  NSString+WSExtension.m
 //  AliyunSales
 //
 //  Created by wangsong on 16/7/15.
 //  Copyright © 2016年 alibaba. All rights reserved.
 //
 
-#import "NSString+Extension.h"
+#import "NSString+WSExtension.h"
 
-@implementation NSString (Extension)
+@implementation NSString (WSExtension)
 + (NSString *)getDocumentsPath {
     NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
     return path;

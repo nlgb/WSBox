@@ -1,7 +1,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (frame)
+@interface UIView (WSFrame)
 @property (nonatomic, assign) CGFloat x;
 @property (nonatomic, assign) CGFloat y;
 @property (nonatomic, assign) CGFloat width;

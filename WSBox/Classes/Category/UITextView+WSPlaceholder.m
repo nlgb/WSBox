@@ -1,14 +1,14 @@
 //
-//  UITextView+Placeholder.m
+//  UITextView+WSPlaceholder.m
 //  AliyunSales
 //
 //  Created by wangsong on 16/6/28.
 //  Copyright © 2016年 alibaba. All rights reserved.
 //
 
-#import "UITextView+Placeholder.h"
+#import "UITextView+WSPlaceholder.h"
 
-@implementation UITextView (Placeholder)
+@implementation UITextView (WSPlaceholder)
 + (UITextView *)textViewWithPlaceholder:(NSString *)placeholder {
     UITextView *textView = [[UITextView alloc] init];
     

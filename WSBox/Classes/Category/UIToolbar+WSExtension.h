@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIToolbar (Extension)
+@interface UIToolbar (WSExtension)
 /**
  * title 按钮的标题
  * target 消息接受者/方法调用方

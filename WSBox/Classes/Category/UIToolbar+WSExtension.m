@@ -6,7 +6,7 @@
 //  Copyright © 2016年 alibaba. All rights reserved.
 //
 
-#import "UIToolbar+Extension.h"
+#import "UIToolbar+WSExtension.h"
 
 @interface UIToolbar ()
 

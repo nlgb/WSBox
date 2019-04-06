@@ -1,5 +1,5 @@
 //
-//  NSString+Extension.h
+//  NSString+WSExtension.h
 //  AliyunSales
 //
 //  Created by wangsong on 16/7/15.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (Extension)
+@interface NSString (WSExtension)
 /**
  *  获取沙盒document的路径
  *

@@ -6,14 +6,14 @@
 //  Copyright © 2016年 alibaba. All rights reserved.
 //
 
-#import "UIBarButtonItem+Extension.h"
+#import "UIBarButtonItem+WSExtension.h"
 //#import "AliyunSalesHomeNavItemButton.h"
 
 @interface UIBarButtonItem ()
 @property(nonatomic,weak) UIButton *btn;
 @end
 
-@implementation UIBarButtonItem (Extension)
+@implementation UIBarButtonItem (WSExtension)
 
 + (UIBarButtonItem *)itemWithTitle:(NSString *)title target:(id)target action:(SEL)action
 {

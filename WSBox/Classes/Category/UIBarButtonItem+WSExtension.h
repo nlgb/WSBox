@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIBarButtonItem (Extension)
+@interface UIBarButtonItem (WSExtension)
 /**
  *  自定义导航条两端按钮的title
  *
