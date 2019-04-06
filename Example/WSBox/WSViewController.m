@@ -7,6 +7,7 @@
 //
 
 #import "WSViewController.h"
+#import "WSSwizzle.h"
 
 @interface WSViewController ()
 
