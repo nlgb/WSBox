@@ -1,22 +1,24 @@
 //
-//  WSViewController.m
-//  WSBox
+//  VVSViewController.m
+//  VVSBox
 //
-//  Created by nlgb on 04/06/2019.
-//  Copyright (c) 2019 nlgb. All rights reserved.
+//  Created by songwangs on 08/09/2017.
+//  Copyright (c) 2017 songwangs. All rights reserved.
 //
 
-#import "WSViewController.h"
+#import "VVSViewController.h"
+#import "WSSwizzle.h"
 
-@interface WSViewController ()
+@interface VVSViewController ()
 
 @end
 
-@implementation WSViewController
+@implementation VVSViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
 }
 
 - (void)viewWillAppear:(BOOL)animated {

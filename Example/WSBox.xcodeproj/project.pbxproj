@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A5F9AB99B87912FA9C644B3C /* Pods_WSBox_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752A32E6E27217B6B392C743 /* Pods_WSBox_Example.framework */; };
+		D031038822584EE7008DBDFE /* VVSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D031038722584EE7008DBDFE /* VVSViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,8 @@
 
 /* Begin PBXFileReference section */
 		022E56484D245C8F7C8D9099 /* Pods-WSBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSBox_Example.debug.xcconfig"; path = "Target Support Files/Pods-WSBox_Example/Pods-WSBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0C05FA1E89FB3C235E9638EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2A85EAD78CBCB48EB942FB1E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0C05FA1E89FB3C235E9638EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2A85EAD78CBCB48EB942FB1E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WSBox_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSBox_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,8 +65,10 @@
 		752A32E6E27217B6B392C743 /* Pods_WSBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A096D2E4EBC25DEEB28CE54 /* Pods_WSBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D031038622584EE7008DBDFE /* VVSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVSViewController.h; sourceTree = "<group>"; };
+		D031038722584EE7008DBDFE /* VVSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVSViewController.m; sourceTree = "<group>"; };
 		E39075F75D9215CC4178192D /* Pods-WSBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSBox_Example.release.xcconfig"; path = "Target Support Files/Pods-WSBox_Example/Pods-WSBox_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E923F2A8062B23C74B2713C4 /* WSBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WSBox.podspec; path = ../WSBox.podspec; sourceTree = "<group>"; };
+		E923F2A8062B23C74B2713C4 /* WSBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WSBox.podspec; path = ../WSBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F64DE8705CFD912EE2ED7619 /* Pods-WSBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSBox_Tests.release.xcconfig"; path = "Target Support Files/Pods-WSBox_Tests/Pods-WSBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +135,8 @@
 		6003F593195388D20070C39A /* Example for WSBox */ = {
 			isa = PBXGroup;
 			children = (
+				D031038622584EE7008DBDFE /* VVSViewController.h */,
+				D031038722584EE7008DBDFE /* VVSViewController.m */,
 				6003F59C195388D20070C39A /* WSAppDelegate.h */,
 				6003F59D195388D20070C39A /* WSAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +198,6 @@
 				6DFED1BD3E9D110F52BB76E3 /* Pods-WSBox_Tests.debug.xcconfig */,
 				F64DE8705CFD912EE2ED7619 /* Pods-WSBox_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -368,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D031038822584EE7008DBDFE /* VVSViewController.m in Sources */,
 				6003F59E195388D20070C39A /* WSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
