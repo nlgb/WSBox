@@ -1,23 +1,23 @@
 //
-//  AliyunSalesMoneyConversionTools.m
+//  AliyunSalesWSMoneyConversions.m
 //  YunFu
 //
 //  Created by ws on 16/12/26.
 //  Copyright © 2016年 alibaba. All rights reserved.
 //
 
-#import "MoneyConversionTool.h"
+#import "WSMoneyConversion.h"
 
-@interface MoneyConversionTool ()<NSDecimalNumberBehaviors>
+@interface WSMoneyConversion ()<NSDecimalNumberBehaviors>
 
 @end
 
-@implementation MoneyConversionTool
+@implementation WSMoneyConversion
 + (instancetype)shareInstance {
     return [[self alloc] init];
 }
 
-static MoneyConversionTool *_instance = nil;
+static WSMoneyConversion *_instance = nil;
 + (instancetype)allocWithZone:(struct _NSZone *)zone {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -40,7 +40,7 @@ static MoneyConversionTool *_instance = nil;
 + (NSString *)private_convertMoneyWithString:(NSString *)string {
     
     NSDecimalNumber *number = [NSDecimalNumber decimalNumberWithString:string];
-    MoneyConversionTool *instance = [self shareInstance];
+    WSMoneyConversion *instance = [self shareInstance];
     NSDecimalNumber *decimalNumber = [number decimalNumberByMultiplyingBy:[NSDecimalNumber decimalNumberWithString:@"0.01"] withBehavior:instance];
     if ([decimalNumber compare:@10000] == NSOrderedAscending) { // 小于10000元 RMB
         return [NSString stringWithFormat:@"%@元",decimalNumber];

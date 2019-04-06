@@ -1,5 +1,5 @@
 //
-//  AliyunSalesMoneyConversionTools.h
+//  AliyunSalesWSMoneyConversions.h
 //  YunFu
 //
 //  Created by ws on 16/12/26.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MoneyConversionTool : NSObject
+@interface WSMoneyConversion : NSObject
 + (NSString *)convertMoney:(id)money;
 @end

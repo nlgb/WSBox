@@ -1,13 +1,13 @@
 //
-//  CollectionCellHeader.h
+//  WSCollectionCellHeader.h
 //  VVSBox
 //
 //  Created by ws on 17/1/24.
 //  Copyright © 2017年 ws. All rights reserved.
 //
 
-#ifndef CollectionCellHeader_h
-#define CollectionCellHeader_h
+#ifndef WSCollectionCellHeader_h
+#define WSCollectionCellHeader_h
 
 /*********************************屏幕宽高***********************************/
 #define VVS_SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
@@ -68,4 +68,4 @@
  */
 #define CELL_Y_WITH_EDGE_PARAMETERS(SUPERVIEW,HEIGHT,COLUMN,MARGIN) SUPERVIEW.subviews.count / COLUMN * HEIGHT + (SUPERVIEW.subviews.count / COLUMN + 1) * MARGIN
 
-#endif /* CollectionCellHeader_h */
+#endif /* WSCollectionCellHeader_h */

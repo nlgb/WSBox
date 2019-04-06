@@ -1,5 +1,5 @@
 //
-//  AliyunSalesTimeConversionTools.h
+//  AliyunSalesWSTimeConversions.h
 //  AliyunSales
 //
 //  Created by wangsong on 16/5/18.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TimeConversionTool : NSObject
+@interface WSTimeConversion : NSObject
 // 这是一个时间换算的单例工具类
 
 /**

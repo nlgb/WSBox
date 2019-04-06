@@ -1,22 +1,22 @@
 //
-//  AliyunSalesTimeConversionTools.m
+//  AliyunSalesWSTimeConversions.m
 //  AliyunSales
 //
 //  Created by wangsong on 16/5/18.
 //  Copyright © 2016年 alibaba. All rights reserved.
 //
 
-#import "TimeConversionTool.h"
+#import "WSTimeConversion.h"
 
-@implementation TimeConversionTool
+@implementation WSTimeConversion
 #pragma mark - 单例
 + (instancetype)shareInstance
 {
-    TimeConversionTool *instance = [[self alloc] init];
+    WSTimeConversion *instance = [[self alloc] init];
     return instance;
 }
 
-static TimeConversionTool *_instance = nil;
+static WSTimeConversion *_instance = nil;
 + (instancetype)allocWithZone:(struct _NSZone *)zone
 {
     static dispatch_once_t onceToken;
