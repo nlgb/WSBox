@@ -9,74 +9,74 @@
     return [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil] lastObject];
 }
 
-- (void)setX:(CGFloat)x
+- (void)setX_ws:(CGFloat)x_ws
 {
     CGRect frame = self.frame;
-    frame.origin.x = x;
+    frame.origin.x = x_ws;
     self.frame = frame;
 }
 
-- (CGFloat)x
+- (CGFloat)x_ws
 {
     return self.frame.origin.x;
 }
 
-- (void)setY:(CGFloat)y
+-(void)setY_ws:(CGFloat)y_ws
 {
     CGRect frame = self.frame;
-    frame.origin.y = y;
+    frame.origin.y = y_ws;
     self.frame = frame;
 }
 
-- (CGFloat)y
+- (CGFloat)y_ws
 {
     return self.frame.origin.y;
 }
 
-- (void)setWidth:(CGFloat)width
+- (void)setWidth_ws:(CGFloat)width_ws
 {
     CGRect frame = self.frame;
-    frame.size.width = width;
+    frame.size.width = width_ws;
     self.frame = frame;
 }
 
-- (CGFloat)width
+- (CGFloat)width_ws
 {
     return self.frame.size.width;
 }
 
-- (void)setHeight:(CGFloat)height
+- (void)setHeight_ws:(CGFloat)height_ws
 {
     CGRect frame = self.frame;
-    frame.size.height = height;
+    frame.size.height = height_ws;
     self.frame = frame;
 }
 
-- (CGFloat)height
+- (CGFloat)height_ws
 {
     return self.frame.size.height;
 }
 
-- (void)setCenterX:(CGFloat)centerX
+- (void)setCenterX_ws:(CGFloat)centerX_ws
 {
     CGPoint center = self.center;
-    center.x = centerX;
+    center.x = centerX_ws;
     self.center = center;
 }
 
-- (CGFloat)centerX
+- (CGFloat)centerX_ws
 {
     return self.center.x;
 }
 
-- (void)setCenterY:(CGFloat)centerY
+- (void)setCenterY_Ws:(CGFloat)centerY_Ws
 {
     CGPoint center = self.center;
-    center.y = centerY;
+    center.y = centerY_Ws;
     self.center = center;
 }
 
-- (CGFloat)centerY
+- (CGFloat)centerY_Ws
 {
     return self.center.y;
 }
