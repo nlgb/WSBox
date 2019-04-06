@@ -16,8 +16,8 @@
  *
  *  @return textView实例对象
  */
-+ (UITextView *)textViewWithPlaceholder:(NSString *)placeholder;
++ (UITextView *)ws_textViewWithPlaceholder:(NSString *)placeholder;
 
-- (UITextView *)setupTextViewWithPlaceholder:(NSString *)placeholder;
+- (UITextView *)ws_setupTextViewWithPlaceholder:(NSString *)placeholder;
 
 @end

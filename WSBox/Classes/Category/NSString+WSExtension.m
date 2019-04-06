@@ -9,18 +9,18 @@
 #import "NSString+WSExtension.h"
 
 @implementation NSString (WSExtension)
-+ (NSString *)getDocumentsPath {
++ (NSString *)ws_getDocumentsPath {
     NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
     return path;
 }
 
-+ (NSString *)getCachesPath {
++ (NSString *)ws_getCachesPath {
     NSString *path = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject];
     return path;
 }
 
-+ (NSString *)getCachesPathWithFileName:(NSString *)fileName {
-    NSString *fullPath =[[self getCachesPath] stringByAppendingPathComponent:fileName.lastPathComponent];
++ (NSString *)ws_getCachesPathWithFileName:(NSString *)fileName {
+    NSString *fullPath =[[self ws_getCachesPath] stringByAppendingPathComponent:fileName.lastPathComponent];
     return fullPath;
 }
 

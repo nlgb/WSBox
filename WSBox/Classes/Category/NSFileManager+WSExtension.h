@@ -1,5 +1,5 @@
 //
-//  NSFileManager+Extension.h
+//  NSFileManager+WSExtension.h
 //  AliyunSales
 //
 //  Created by wangsong on 16/7/13.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSFileManager (Extension)
+@interface NSFileManager (WSExtension)
 /**
  *  移除Documents文件夹下指定后缀的文件
  *
@@ -16,7 +16,7 @@
  *
  *  @return 移除文件的个数
  */
-+ (NSInteger)removeItemFromCachesWithPostfix:(NSString *)postfix;
++ (NSInteger)ws_removeItemFromCachesWithPostfix:(NSString *)postfix;
 /**
  *  移除documents文件夹下的指定文件
  *
@@ -24,6 +24,6 @@
  *
  *  @return 是否移除成功
  */
-+ (BOOL)removeItemFromCachesWithFileName:(NSString *)fileName;
++ (BOOL)ws_removeItemFromCachesWithFileName:(NSString *)fileName;
 
 @end

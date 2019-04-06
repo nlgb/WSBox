@@ -13,7 +13,7 @@
 @end
 
 @implementation UIToolbar (AliyunSalesInputAccessoryView)
-+ (instancetype)sales_inputAccessoryViewWithTitle:(NSString *)title target:(id)target action:(SEL)action {
++ (instancetype)ws_inputAccessoryViewWithTitle:(NSString *)title target:(id)target action:(SEL)action {
     if (!title || !target || !action) {
         return nil;
     }

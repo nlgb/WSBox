@@ -36,7 +36,7 @@
 		99E91E5F7F71EED5CF97AB0B6E8405EF /* NSArray+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EC4CDE43E5F9D20C9BB478C80610BE /* NSArray+WSExtension.m */; };
 		A023008DB98BAB8B960F3CDBB81E3BFB /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1F0F5A40AB4C613B504E94F90356C /* NSData+NSHash.m */; };
 		AE5FCE6F17EC13751F69853885F1E2BE /* NSString+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE45E12FBB4205FDE1D52392E5EEC7D /* NSString+WSExtension.m */; };
-		AF45DBC018FA29C776FF7843871ECFDF /* NSFileManager+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E0BAC5751635710744BCEC3F501CDF7 /* NSFileManager+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF45DBC018FA29C776FF7843871ECFDF /* NSFileManager+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E0BAC5751635710744BCEC3F501CDF7 /* NSFileManager+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2311AD3AB8B59C9F129E21ABF95AC86 /* UITextView+WSPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAE9E4FDEF33183E46508ABFD6E9EE8 /* UITextView+WSPlaceholder.m */; };
 		C74D9C27228E3607DA88F5EE7016C29C /* NSData+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8040739FC611E631CAE54FC18A1627 /* NSData+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D031038A2258E6F1008DBDFE /* WSBox.h in Headers */ = {isa = PBXBuildFile; fileRef = D03103892258E6F1008DBDFE /* WSBox.h */; };
@@ -48,7 +48,7 @@
 		F330813FA518CB454B75D65A6F458D56 /* TimeConversionTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A324A577DFB45030D271AC6E82EA5F2C /* TimeConversionTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F59EFC73EEFAA0637B6DE6CAB768342C /* TimeConversionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A253132081E6460BD7D99B8FA21FC1E9 /* TimeConversionTool.m */; };
 		F8815FC41E2045DEB0954630F4794B81 /* Pods-WSBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DCD794E8EA2B86783B1125C607107D /* Pods-WSBox_Example-dummy.m */; };
-		FC7E3D6126C7CE36D025B8CCC43BDE16 /* NSFileManager+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F99D885199E1F690E891DF144CCFE5E0 /* NSFileManager+Extension.m */; };
+		FC7E3D6126C7CE36D025B8CCC43BDE16 /* NSFileManager+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F99D885199E1F690E891DF144CCFE5E0 /* NSFileManager+WSExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,7 @@
 		01C300F0FE8F3FD3FCAE2D6FD1732E33 /* WSBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WSBox-Info.plist"; sourceTree = "<group>"; };
 		04D81BFEC967B593596E8CE04AC0E8A2 /* Pods-WSBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSBox_Example.modulemap"; sourceTree = "<group>"; };
 		05E9724C197D4C80F8AFDC2BE5211D20 /* Pods-WSBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSBox_Tests.modulemap"; sourceTree = "<group>"; };
-		0E0BAC5751635710744BCEC3F501CDF7 /* NSFileManager+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Extension.h"; sourceTree = "<group>"; };
+		0E0BAC5751635710744BCEC3F501CDF7 /* NSFileManager+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+WSExtension.h"; sourceTree = "<group>"; };
 		1080082796D6A6D13A777825E16AC682 /* UIToolbar+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+WSExtension.h"; sourceTree = "<group>"; };
 		1681621A4DF33C613B0CC1F3B7722764 /* WSBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F56B5F212EA77A111901A6477E2ADB /* Pods-WSBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		EC1607AE8B4DFFAE7950139C3CBF0454 /* Pods-WSBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSBox_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F047424E30C5806FA9BDD9AABF90E7FE /* NSString+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+WSExtension.h"; sourceTree = "<group>"; };
 		F6F04305A6F44D274F7553B3E6C959E9 /* UIBarButtonItem+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WSExtension.h"; sourceTree = "<group>"; };
-		F99D885199E1F690E891DF144CCFE5E0 /* NSFileManager+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Extension.m"; sourceTree = "<group>"; };
+		F99D885199E1F690E891DF144CCFE5E0 /* NSFileManager+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+WSExtension.m"; sourceTree = "<group>"; };
 		F9C6C32C838C77936BD24C0003139826 /* Pods-WSBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FF91B72996BEE1370CA0EB08B0F91620 /* ScreenHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ScreenHeader.h; sourceTree = "<group>"; };
 		FFE45E12FBB4205FDE1D52392E5EEC7D /* NSString+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+WSExtension.m"; sourceTree = "<group>"; };
@@ -200,8 +200,8 @@
 			children = (
 				33EE2566535A76878783D7EEDD9504F5 /* NSArray+WSExtension.h */,
 				C7EC4CDE43E5F9D20C9BB478C80610BE /* NSArray+WSExtension.m */,
-				0E0BAC5751635710744BCEC3F501CDF7 /* NSFileManager+Extension.h */,
-				F99D885199E1F690E891DF144CCFE5E0 /* NSFileManager+Extension.m */,
+				0E0BAC5751635710744BCEC3F501CDF7 /* NSFileManager+WSExtension.h */,
+				F99D885199E1F690E891DF144CCFE5E0 /* NSFileManager+WSExtension.m */,
 				B78D66ABCF4B37777FCB38F2223EF316 /* NSMutableArray+WSExtension.h */,
 				60D421EFCB6BAF211334118851AEF598 /* NSMutableArray+WSExtension.m */,
 				F047424E30C5806FA9BDD9AABF90E7FE /* NSString+WSExtension.h */,
@@ -390,7 +390,7 @@
 				32821E69488BBC7B68E7868380961E32 /* MoneyConversionTool.h in Headers */,
 				79BD001B45EE4C2CE642236EC1ADBF72 /* NSArray+WSExtension.h in Headers */,
 				C74D9C27228E3607DA88F5EE7016C29C /* NSData+NSHash.h in Headers */,
-				AF45DBC018FA29C776FF7843871ECFDF /* NSFileManager+Extension.h in Headers */,
+				AF45DBC018FA29C776FF7843871ECFDF /* NSFileManager+WSExtension.h in Headers */,
 				552A9739B66770DEAF889091F2832302 /* NSMutableArray+WSExtension.h in Headers */,
 				4579211D50DDFABD291C1D46FF5B15C2 /* NSString+WSExtension.h in Headers */,
 				3823621FE047CB5C5FF8D2A16A4E69A3 /* NSString+NSHash.h in Headers */,
@@ -544,7 +544,7 @@
 				8C0356D1EB4A23E0EFBA8A68AA639741 /* MoneyConversionTool.m in Sources */,
 				99E91E5F7F71EED5CF97AB0B6E8405EF /* NSArray+WSExtension.m in Sources */,
 				A023008DB98BAB8B960F3CDBB81E3BFB /* NSData+NSHash.m in Sources */,
-				FC7E3D6126C7CE36D025B8CCC43BDE16 /* NSFileManager+Extension.m in Sources */,
+				FC7E3D6126C7CE36D025B8CCC43BDE16 /* NSFileManager+WSExtension.m in Sources */,
 				174B0D2F72E81B5BD57BFEDF7FC3AA61 /* NSMutableArray+WSExtension.m in Sources */,
 				AE5FCE6F17EC13751F69853885F1E2BE /* NSString+WSExtension.m in Sources */,
 				2A213529C164E4C35F1D135368867C15 /* NSString+NSHash.m in Sources */,

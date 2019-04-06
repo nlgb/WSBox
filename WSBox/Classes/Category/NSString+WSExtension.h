@@ -14,19 +14,19 @@
  *
  *  @return 返回路径字符串
  */
-+ (NSString *)getDocumentsPath;
++ (NSString *)ws_getDocumentsPath;
 /**
  *  获取沙盒caches的路径
  *
  *  @return 返回路径字符串
  */
-+ (NSString *)getCachesPath;
++ (NSString *)ws_getCachesPath;
 /**
  *  caches的路径后面拼接文件名
  *
  *  @return 返回路径字符串
  */
-+ (NSString *)getCachesPathWithFileName:(NSString *)fileName;
++ (NSString *)ws_getCachesPathWithFileName:(NSString *)fileName;
 
 #pragma mark - URL编码解码
 /**

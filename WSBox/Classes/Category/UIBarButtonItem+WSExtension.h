@@ -18,8 +18,14 @@
  *
  *  @return 返回一个配置好的UIBarButtonItem
  */
-+ (UIBarButtonItem *)itemWithTitle:(NSString *)title target:(id)target action:(SEL)action;
-+ (UIBarButtonItem *)itemWithNormalTitle:(NSString *)normalTitle selectedTitle:(NSString *)selectedTitle target:(id)target action:(SEL)action;
++ (UIBarButtonItem *)ws_itemWithTitle:(NSString *)title
+                            target:(id)target
+                            action:(SEL)action;
+
++ (UIBarButtonItem *)ws_itemWithNormalTitle:(NSString *)normalTitle
+                           selectedTitle:(NSString *)selectedTitle
+                                  target:(id)target
+                                  action:(SEL)action;
 
 /**
  *  自定义导航条两端按钮的image
@@ -31,7 +37,10 @@
  *
  *  @return 返回一个配置好的UIBarButtonItem
  */
-+ (UIBarButtonItem *)itemWithNormalImageName:(NSString *)normalImageName highLightImageName:(NSString *)highLightImageName target:(id)target action:(SEL)action;
++ (UIBarButtonItem *)ws_itemWithNormalImageName:(NSString *)normalImageName
+                          highLightImageName:(NSString *)highLightImageName
+                                      target:(id)target
+                                      action:(SEL)action;
 
 /**
  *  自定义导航条两端按钮的button
@@ -42,6 +51,8 @@
  *
  *  @return 根据button返回一个配置好的UIBarButtonItem
  */
-+ (UIBarButtonItem *)itemWithButton:(UIButton *)button target:(id)target action:(SEL)action;
++ (UIBarButtonItem *)ws_itemWithButton:(UIButton *)button
+                             target:(id)target
+                             action:(SEL)action;
 
 @end

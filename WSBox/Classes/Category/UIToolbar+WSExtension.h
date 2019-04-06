@@ -14,6 +14,8 @@
  * target 消息接受者/方法调用方
  * action 发送的消息/调用的方法
  */
-+ (instancetype)inputAccessoryViewWithTitle:(NSString *)title target:(id)target action:(SEL)action;
++ (instancetype)ws_inputAccessoryViewWithTitle:(NSString *)title
+                                        target:(id)target
+                                        action:(SEL)action;
 
 @end

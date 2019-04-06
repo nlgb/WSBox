@@ -9,13 +9,13 @@
 #import "UITextView+WSPlaceholder.h"
 
 @implementation UITextView (WSPlaceholder)
-+ (UITextView *)textViewWithPlaceholder:(NSString *)placeholder {
++ (UITextView *)ws_textViewWithPlaceholder:(NSString *)placeholder {
     UITextView *textView = [[UITextView alloc] init];
     
-    return [textView setupPlaceholder:placeholder];
+    return [textView ws_setupPlaceholder:placeholder];
 }
 
-- (UITextView *)setupPlaceholder:(NSString *)placeholder {
+- (UITextView *)ws_setupPlaceholder:(NSString *)placeholder {
     UILabel *placeHolderLabel = [[UILabel alloc] init];
     [placeHolderLabel sizeToFit];
     placeHolderLabel.numberOfLines = 0;
@@ -29,8 +29,8 @@
     return self;
 }
 
-- (UITextView *)setupTextViewWithPlaceholder:(NSString *)placeholder {
-    return [self setupPlaceholder:placeholder];
+- (UITextView *)ws_setupTextViewWithPlaceholder:(NSString *)placeholder {
+    return [self ws_setupPlaceholder:placeholder];
 }
 
 @end

@@ -1,18 +1,18 @@
 //
-//  NSFileManager+Extension.m
+//  NSFileManager+WSExtension.m
 //  AliyunSales
 //
 //  Created by wangsong on 16/7/13.
 //  Copyright © 2016年 alibaba. All rights reserved.
 //
 
-#import "NSFileManager+Extension.h"
+#import "NSFileManager+WSExtension.h"
 #import "NSString+WSExtension.h"
 
-@implementation NSFileManager (Extension)
-+ (NSInteger)removeItemFromCachesWithPostfix:(NSString *)postfix {
+@implementation NSFileManager (WSExtension)
++ (NSInteger)ws_removeItemFromCachesWithPostfix:(NSString *)postfix {
     NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSString *documentsDirectory = [NSString getCachesPath];
+    NSString *documentsDirectory = [NSString ws_getCachesPath];
     NSError *error = nil;
     NSArray *contents = [fileManager contentsOfDirectoryAtPath:documentsDirectory error:&error];
     if (error) {
@@ -36,9 +36,9 @@
     return count;
 }
 
-+ (BOOL)removeItemFromCachesWithFileName:(NSString *)fileName {
++ (BOOL)ws_removeItemFromCachesWithFileName:(NSString *)fileName {
     NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSString *documentsDirectory = [NSString getCachesPath];
+    NSString *documentsDirectory = [NSString ws_getCachesPath];
     NSError *error = nil;
     return [fileManager removeItemAtPath:[documentsDirectory stringByAppendingPathComponent:fileName] error:&error];
 }

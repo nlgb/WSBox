@@ -15,7 +15,7 @@
 
 @implementation UIBarButtonItem (WSExtension)
 
-+ (UIBarButtonItem *)itemWithTitle:(NSString *)title target:(id)target action:(SEL)action
++ (UIBarButtonItem *)ws_itemWithTitle:(NSString *)title target:(id)target action:(SEL)action
 {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setTitle:title forState:UIControlStateNormal];
@@ -26,7 +26,7 @@
     return item;
 }
 
-+ (UIBarButtonItem *)itemWithNormalTitle:(NSString *)normalTitle selectedTitle:(NSString *)selectedTitle target:(id)target action:(SEL)action
++ (UIBarButtonItem *)ws_itemWithNormalTitle:(NSString *)normalTitle selectedTitle:(NSString *)selectedTitle target:(id)target action:(SEL)action
 {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setTitle:normalTitle forState:UIControlStateNormal];
@@ -39,7 +39,7 @@
     return item;
 }
 
-+ (UIBarButtonItem *)itemWithNormalImageName:(NSString *)normalImageName highLightImageName:(NSString *)highLightImageName target:(id)target action:(SEL)action
++ (UIBarButtonItem *)ws_itemWithNormalImageName:(NSString *)normalImageName highLightImageName:(NSString *)highLightImageName target:(id)target action:(SEL)action
 {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setImage:[UIImage imageNamed:normalImageName] forState:UIControlStateNormal];
@@ -52,7 +52,7 @@
 }
 
 
-+ (UIBarButtonItem *)itemWithButton:(UIButton *)button target:(id)target action:(SEL)action {
++ (UIBarButtonItem *)ws_itemWithButton:(UIButton *)button target:(id)target action:(SEL)action {
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:button];
     return item;
 }
