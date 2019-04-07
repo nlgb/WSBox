@@ -1,9 +1,9 @@
 //
 //  UITextView+WSPlaceholder.m
-//  AliyunSales
+//  WS
 //
-//  Created by wangsong on 16/6/28.
-//  Copyright © 2016年 alibaba. All rights reserved.
+//  Created by WS on 16/6/28.
+//  Copyright © 2016年 WS. All rights reserved.
 //
 
 #import "UITextView+WSPlaceholder.h"

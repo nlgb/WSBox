@@ -2,7 +2,7 @@
 //  WSSwizzle.m
 //  Pods
 //
-//  Created by sw on 2019/4/6.
+//  Created by WS on 2019/4/6.
 //
 
 #import "WSSwizzle.h"
@@ -31,8 +31,6 @@ void _ws_swizzleInstanceMethod(Class clsA, SEL selectorA, Class clsB, SEL select
 
 @implementation WSSwizzle
 
-
-
 +(void)swizzleClassMethod:(SEL)selectorA ofClass:(Class)clsA withMethod:(SEL)selectorB ofClass:(Class)clsB {
     _ws_swizzleClassMethod(clsA, selectorA, clsB, selectorB);
 }
@@ -40,7 +38,5 @@ void _ws_swizzleInstanceMethod(Class clsA, SEL selectorA, Class clsB, SEL select
 + (void)swizzleInstanceMethod:(SEL)selectorA ofClass:(Class)clsA withMethod:(SEL)selectorB ofClass:(Class)clsB {
     _ws_swizzleInstanceMethod(clsA, selectorA, clsB, selectorB);
 }
-
-
 
 @end

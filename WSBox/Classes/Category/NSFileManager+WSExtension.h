@@ -1,9 +1,9 @@
 //
 //  NSFileManager+WSExtension.h
-//  AliyunSales
+//  WS
 //
-//  Created by wangsong on 16/7/13.
-//  Copyright © 2016年 alibaba. All rights reserved.
+//  Created by WS on 16/7/13.
+//  Copyright © 2016年 WS. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

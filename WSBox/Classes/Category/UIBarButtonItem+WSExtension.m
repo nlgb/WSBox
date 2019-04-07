@@ -1,9 +1,9 @@
 //
-//  UIBarButtonItem+AliyunSalesBarButtonItem.m
-//  AliyunSales
+//  UIBarButtonItem+WSExtension.m
+//  WS
 //
-//  Created by wangsong on 16/4/20.
-//  Copyright © 2016年 alibaba. All rights reserved.
+//  Created by WS on 16/4/20.
+//  Copyright © 2016年 WS. All rights reserved.
 //
 
 #import "UIBarButtonItem+WSExtension.h"

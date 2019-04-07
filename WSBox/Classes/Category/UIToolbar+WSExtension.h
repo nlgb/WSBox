@@ -1,9 +1,9 @@
 //
-//  UIToolbar+AliyunSalesInputAccessoryView.h
+//  UIToolbar+WSExtension.h
 //  YunFu
 //
 //  Created by ws on 16/12/29.
-//  Copyright © 2016年 alibaba. All rights reserved.
+//  Copyright © 2016年 WS. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

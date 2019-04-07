@@ -1,9 +1,9 @@
 //
-//  AliyunSalesWSTimeConversions.m
-//  AliyunSales
+//  WSTimeConversions.m
+//  WS
 //
-//  Created by wangsong on 16/5/18.
-//  Copyright © 2016年 alibaba. All rights reserved.
+//  Created by WS on 16/5/18.
+//  Copyright © 2016年 WS. All rights reserved.
 //
 
 #import "WSTimeConversion.h"

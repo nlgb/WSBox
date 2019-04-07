@@ -1,9 +1,9 @@
 //
-//  UIToolbar+AliyunSalesInputAccessoryView.m
+//  UIToolbar+WSExtension.m
 //  YunFu
 //
 //  Created by ws on 16/12/29.
-//  Copyright © 2016年 alibaba. All rights reserved.
+//  Copyright © 2016年 WS. All rights reserved.
 //
 
 #import "UIToolbar+WSExtension.h"
@@ -12,7 +12,7 @@
 
 @end
 
-@implementation UIToolbar (AliyunSalesInputAccessoryView)
+@implementation UIToolbar (WSExtension)
 + (instancetype)ws_inputAccessoryViewWithTitle:(NSString *)title target:(id)target action:(SEL)action {
     if (!title || !target || !action) {
         return nil;
