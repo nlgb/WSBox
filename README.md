@@ -22,7 +22,7 @@ pod 'WSBox'
 
 ## Author
 
-nlgb, wanggyanmo@163.com
+WS, wanggyanmo@163.com
 
 ## License
 
