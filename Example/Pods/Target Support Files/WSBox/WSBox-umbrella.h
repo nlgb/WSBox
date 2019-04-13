@@ -19,6 +19,7 @@
 #import "UIToolbar+WSExtension.h"
 #import "UIView+WSFrame.h"
 #import "WSTimeConversion.h"
+#import "WSBatteryInfoManager.h"
 #import "WSCollectionCellHeader.h"
 #import "WSColorHeader.h"
 #import "WSScreenHeader.h"

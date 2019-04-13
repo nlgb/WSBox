@@ -8,6 +8,7 @@
 
 #import "WSViewController.h"
 #import "WSSwizzle.h"
+#import "WSBatteryInfoManager.h"
 
 @interface WSViewController ()
 

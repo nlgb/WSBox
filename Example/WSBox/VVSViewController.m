@@ -8,6 +8,7 @@
 
 #import "VVSViewController.h"
 #import "WSSwizzle.h"
+#import "WSBatteryInfoManager.h"
 
 @interface VVSViewController ()
 
