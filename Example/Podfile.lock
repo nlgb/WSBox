@@ -1,5 +1,5 @@
 PODS:
-  - WSBox (0.4.6)
+  - WSBox (0.5.0)
 
 DEPENDENCIES:
   - WSBox (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WSBox: 7355b577a25eb92c2cf065b9d5881247e8de6e0c
+  WSBox: 9e5e53cb05d507311db2373dbdcce6e5d0f7876e
 
 PODFILE CHECKSUM: c7e99a948ae19bfd05a95344b97e1849f566c979
 

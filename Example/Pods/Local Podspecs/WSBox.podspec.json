@@ -1,6 +1,6 @@
 {
   "name": "WSBox",
-  "version": "0.4.6",
+  "version": "0.5.0",
   "summary": "A tool box for iOS developer.",
   "description": "A very good tool box for iOS developer.",
   "homepage": "https://github.com/wsv587/WSBox",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/wsv587/WSBox.git",
-    "tag": "0.4.6"
+    "tag": "0.5.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
   "source_files": "WSBox/Classes/**/*"
 }
