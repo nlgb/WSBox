@@ -15,6 +15,7 @@
 #import "NSMutableArray+WSExtension.h"
 #import "NSString+WSExtension.h"
 #import "UIBarButtonItem+WSExtension.h"
+#import "UIImage+WSExtension.h"
 #import "UITextView+WSPlaceholder.h"
 #import "UIToolbar+WSExtension.h"
 #import "UIView+WSFrame.h"

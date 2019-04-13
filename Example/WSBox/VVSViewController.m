@@ -9,6 +9,7 @@
 #import "VVSViewController.h"
 #import "WSSwizzle.h"
 #import "WSBatteryInfoManager.h"
+#import "UIImage+WSExtension.h"
 
 @interface VVSViewController ()
 

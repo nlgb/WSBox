@@ -7,48 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		056510750C21935DEDC104CF02737B2B /* UITextView+WSPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = C83D359DBA30D2FF9DC19A1AE5B9BFF9 /* UITextView+WSPlaceholder.m */; };
+		019BC4115CAB6E6F2092FA9E0486E995 /* WSTimeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = DE548736A77A6D09EF611AF59E42CAD7 /* WSTimeConversion.m */; };
+		0F299EF67FEDB9C35999572A342A87C5 /* NSMutableArray+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A2421AD77DE085C64FC1B609C04A27 /* NSMutableArray+WSExtension.m */; };
 		126BB9E8B2952BC3F9E2C9E36F540262 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		14C04A8874FFF50E9659BA32F9A0FFC3 /* WSMoneyConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D2C996621152C578FFB3907E54E856 /* WSMoneyConversion.m */; };
-		165C30566A4622578EDCD95B04AF993C /* WSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD4395A5FF3E0CBC421F5801B51D20A /* WSSwizzle.m */; };
 		20727796625588932680BF12BFA919E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		27D6FF6CD5AAD2BA6FEBCCE8F03B118F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		2AD1E9CCC5F4ED59EF7F35938E4D46BA /* UIToolbar+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F0D5B5AC32B91B814FD699DC70ED8B /* UIToolbar+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CADA4FA570DB3CE2161CDEAC3D7B313 /* UIToolbar+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 42180A5AC427EA0A49649149D5A07309 /* UIToolbar+WSExtension.m */; };
+		2864BC0105EABB4BD148FC40737AA6AC /* WSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BEA9D51147442BB74672DF041893DA /* WSSwizzle.m */; };
+		2B3A40DDB827E0193C13A9AEB5957CDA /* NSString+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 2834F2B038092A8C0D013C3E85F86880 /* NSString+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C8E6BD4D4EA835C396F7CEA7D21723F /* UIToolbar+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF136460333816942759C5214D6CB06 /* UIToolbar+WSExtension.m */; };
 		2ECF9ED62277CD31A0B55A5891C0C023 /* Pods-WSBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D494E86FAB1C97CAF5605ECCC71B9BD /* Pods-WSBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		342A65EBC4C5660688EC048D9D4E2B1D /* UIView+WSFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C6C5D07096E70DF54997068D1A1437A /* UIView+WSFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DA11C83592FCF380A756B0A7F45D0C5 /* Pods-WSBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 786293277D90CEE5AA224B49B07E9172 /* Pods-WSBox_Tests-dummy.m */; };
-		49094346F66712E804623EEB7D08A1E9 /* UITextView+WSPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = DE940E71BD29FAA9C1C19DCC589EB1F6 /* UITextView+WSPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E19C9A3D9C94C9D6FE69B1EF9192CD6 /* NSString+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8EB7C1945BE42650106C32A0317452 /* NSString+WSExtension.m */; };
+		406E0A9653D99E184CC230418DA5C342 /* UIView+WSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34EC4BC5D48DF66BC4C1DDEFE5899E /* UIView+WSFrame.m */; };
+		433ACD24501FD99F5979FA79ADB917C9 /* UIBarButtonItem+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA36C6FB2DB37EEEB87602C78B58F48 /* UIBarButtonItem+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46923DF3AACD9E26CC9560632D3B82ED /* NSFileManager+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 120E406DE9C9CBC49545D98A2E0CB157 /* NSFileManager+WSExtension.m */; };
+		4DCBAA5D59FB58B7179A5914836B3F8D /* NSMutableArray+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7280EDD10861CC7E9021C1DE4FC49E1E /* NSMutableArray+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EFC5336F8DF78FD3D1F87DF59A8ADCF /* WSBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC439E0ADB4310BE0EB91D3BF0681CD /* WSBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5384D32FCA0DF3CA8846B007B96D6B83 /* Pods-WSBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1607AE8B4DFFAE7950139C3CBF0454 /* Pods-WSBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6441F242C40B7A81C7E931B0D99ECC87 /* NSFileManager+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E86D6DE293D529DCCD520E2D80F6B5F /* NSFileManager+WSExtension.m */; };
-		66FC97EE094966D6D6541CC0B8D0A5E8 /* WSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 378DE220B93CE04FC05046CFA95EC022 /* WSSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C6BEC04ECCD1333303FB1EF12CEB9B3 /* UIBarButtonItem+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611427FF9C0825D757D7392D004F3BB /* UIBarButtonItem+WSExtension.m */; };
-		6D0FDDAD895FCBFA39380547405589AD /* UIBarButtonItem+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8A27A7DCB906E6DC7E586F11BBB2E4 /* UIBarButtonItem+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EBB5962BF977136E20BC620E6969F24 /* WSBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 944D328973EC7A40DF8BC98AE5662347 /* WSBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82B482AEFF3BED980D5FEA2538BA5DFC /* WSScreenHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A4908271EC252857BF006C11629CBE /* WSScreenHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8649AB846B47A9AEFFD51A90664A3DAA /* WSBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4A4F1EA3F112E4AF6D61E3D9032CAA /* WSBox-dummy.m */; };
-		86707FFE7EDF66EA71E2073EF80C24B8 /* NSData+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A0D70ACD7D5EBBB3833FFE77CAFBA5 /* NSData+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FA9894669FAF526A19714C8D9D5DD69 /* WSTimeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 85185D20F46479897164CDEFAE467C27 /* WSTimeConversion.m */; };
-		90D8506C7F3957A09681692701259F3C /* WSCollectionCellHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E15B6D132A141DEE3542BF2CF2595EA8 /* WSCollectionCellHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		920BD61513E723A5C717FC77D81ACF69 /* WSBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A862D54716BAAA11D84DA04A91695E63 /* WSBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		937630C6B453B1C8AA1F27643AD11B66 /* NSString+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F585F4B5C8C58FBFB81A9EA4E7684 /* NSString+NSHash.m */; };
-		9CD2A2B64BC6EE78D3898152F6806CF8 /* WSColorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D99E76F4CFA3444B6E0C37AC7574D7 /* WSColorHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A85C66D6B5A76B9920EA8215494E1C66 /* WSUserDefaultsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AF007E156CD72A894A0D34E3537F4CF8 /* WSUserDefaultsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B21F8ADCDB0ABE70674AD5A97C28DB67 /* UIView+WSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40BED89F81C5585C92AAA93DF74EAF /* UIView+WSFrame.m */; };
-		B58338BB125D4CEE84A5085E925EFA2B /* WSBatteryInfoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F882226F6BE4770618403ABDAAA34C /* WSBatteryInfoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB64591F5F67EAE924BF017FF0B2ED98 /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA689244A1D0BE7E0770D7DF1965E5E /* NSData+NSHash.m */; };
-		C0F06C9BCCBC22B06FF563D442595D95 /* NSMutableArray+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B13FFCD3A977F8ED5C0F815CB3978684 /* NSMutableArray+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD84E12C7BED8390207CA9D3E4566B2A /* NSString+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 80165B62CD9A9F4563E2EE762A595363 /* NSString+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1FAADA79706740559982160E9DFB434 /* WSTimeConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 616824F0179B9F9BBE482658006339CB /* WSTimeConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E51B65B0B16580EA4FEC97EB6732470C /* WSBatteryInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D5E02357DA11CDEC3ED0A644081EE9 /* WSBatteryInfoManager.m */; };
-		ECA73BA970C5CCAF626BCD2157880366 /* NSMutableArray+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6013D399C9661A3A0BFF766BAE0B72 /* NSMutableArray+WSExtension.m */; };
-		F51DEA3B5E74B5363302A254B3614BE1 /* NSString+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8116FFC2F103C101254FBB86B8F54 /* NSString+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6BF0893273768EBD5F9A1DFE0E2DA4D /* WSMoneyConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 77EC00B1BA5E08A298D7C1CE4DB0CD8D /* WSMoneyConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5501C3F40D481BC8687C9A17CFAF6E09 /* NSString+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB9F06931B4FB086A10F6F6B695C3CC /* NSString+NSHash.m */; };
+		556FC782218F926BEB9D474DFED161C6 /* UIToolbar+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EACE0E6C737C85FE4CD546A7401765C /* UIToolbar+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A03F71B55A20D3431C9682D958BC5DA /* WSBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C71DAF288BAF955358590B349C4F60 /* WSBox-dummy.m */; };
+		691A0476C8BE38FB8B8A4F463B4A17EC /* NSString+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EE52462101E21665F5AC8FB69CD7B265 /* NSString+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		738DD1F99389BE8AA8B41878DA712293 /* WSTimeConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 00616C1B7579447BE42A554C168C92F0 /* WSTimeConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		784C54BE68486F36CD2473D28092F187 /* NSString+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5476D64A46752D818E65423F8A43CEB8 /* NSString+WSExtension.m */; };
+		7AEDD76DD2BD2FE342B93FFF95CE3037 /* WSCollectionCellHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1CDED19FA10B4C64C32EE79F26C49 /* WSCollectionCellHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B2ABCBB20A651EB648CAB4B49D07E12 /* WSBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB1C4E68095FC8A546A36172EDBDFC0 /* WSBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B615D431E9DBD94241BDEC482019BB0 /* WSUserDefaultsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A3FE1C909793B37D01FFB5BFFFB16A /* WSUserDefaultsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C47479B029F6D9BE94813200E7D6DF4 /* WSMoneyConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = F223EAB5858B785BA81FDEC35136CDAF /* WSMoneyConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91DE81929E1AED05EDB2B27C28112828 /* NSArray+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B633C8B1E623E3DBDDF9B6C4B7F7AE67 /* NSArray+WSExtension.m */; };
+		93EF23C7FEEA100596A2FB27E06E40E9 /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E97F7CFD1C5EA6601A53602D383884 /* NSData+NSHash.m */; };
+		A10CEA7A22EE0D4CDBFF11EA4C610687 /* WSMoneyConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8F7C9751ECB457ACC86747DF158DFB /* WSMoneyConversion.m */; };
+		A571F89954469951208533DDAAD48899 /* WSBatteryInfoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC031E3F62F0ECBE701101EAA084DE5 /* WSBatteryInfoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7FFDBD6932B5E3F2E3525823D07B386 /* UIImage+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CB92703ACA08C1C7D14DA9892CBE146F /* UIImage+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9EFA522CEC73DCC1D896F5122D2E034 /* WSColorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A796D35C6CB20CFEEB4F922DD37A00 /* WSColorHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEAC5DEC7521B30C99A10F1FAE24C4DE /* WSBatteryInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 012C098755CC2270E3DE9722770E5418 /* WSBatteryInfoManager.m */; };
+		B42F203D60B2CEAB84BA266EBAFEA4D8 /* UIBarButtonItem+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B31E1700E8BAA2C042A5AE05C5FC4E /* UIBarButtonItem+WSExtension.m */; };
+		B5C5702E027EC6C74C7C5BAA882FEF3F /* UITextView+WSPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = E229D24D8E0BBF813D0FE5433D54D08F /* UITextView+WSPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4D32AED763F6625B30019962DA1BAA /* UIView+WSFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 1084BCC96B7EC5FF80B72FB68CBB0B49 /* UIView+WSFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBB8A297CCD6BB842175128ACABA20A4 /* NSData+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E41F3EE3A2DB59BAC94B3E962406D4 /* NSData+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D05FB1642262135600E78D2F /* UIImage+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD83A8DDF0F94547A0DCC07FCD18C9C /* UIImage+WSExtension.m */; };
+		D5834596E8B85A6EA05750C7AB30414C /* WSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 287962877D97BB50BAB4F22085041D59 /* WSSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB9930DE1C3CBBDD857282E6034AE020 /* NSArray+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DC680F26D3C581D95F615B1245359A9D /* NSArray+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F462FB47DA27112520EF3349D9B6CA9B /* UIImage+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD83A8DDF0F94547A0DCC07FCD18C9C /* UIImage+WSExtension.m */; };
 		F8815FC41E2045DEB0954630F4794B81 /* Pods-WSBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DCD794E8EA2B86783B1125C607107D /* Pods-WSBox_Example-dummy.m */; };
-		F887DCB10BE4D26361D704511028BE52 /* NSFileManager+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 39277EA859499FA3D0827E1AAD942834 /* NSFileManager+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBB42013F389E007ECC50394353AEFDF /* NSArray+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0CF40146ABA76087A57AF1FCF5B10B /* NSArray+WSExtension.m */; };
-		FD281515316B99D1E4D7ABA968E67907 /* NSArray+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C7482C12150E0DECC867B7C3A943B7 /* NSArray+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F935A044004DB8C0CB505F751E74B0E3 /* WSScreenHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9854F240DC45EDA5D88E68CACE98FC55 /* WSScreenHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC0907648E8BE61D2B97A8DA02CD8DCB /* NSFileManager+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4BE62F42F8EA95C336E62C0A864270 /* NSFileManager+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFD10C69F1D99C22730AC647D2F471A /* UITextView+WSPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF7B3E482F2571B91179948B6443298 /* UITextView+WSPlaceholder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,70 +72,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02F0D5B5AC32B91B814FD699DC70ED8B /* UIToolbar+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+WSExtension.h"; sourceTree = "<group>"; };
+		00616C1B7579447BE42A554C168C92F0 /* WSTimeConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSTimeConversion.h; sourceTree = "<group>"; };
+		012C098755CC2270E3DE9722770E5418 /* WSBatteryInfoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WSBatteryInfoManager.m; sourceTree = "<group>"; };
 		04D81BFEC967B593596E8CE04AC0E8A2 /* Pods-WSBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSBox_Example.modulemap"; sourceTree = "<group>"; };
 		05E9724C197D4C80F8AFDC2BE5211D20 /* Pods-WSBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSBox_Tests.modulemap"; sourceTree = "<group>"; };
-		0906D56C78A35FEF273A779532B67171 /* WSBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSBox-prefix.pch"; sourceTree = "<group>"; };
-		09D2C996621152C578FFB3907E54E856 /* WSMoneyConversion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WSMoneyConversion.m; sourceTree = "<group>"; };
-		1681621A4DF33C613B0CC1F3B7722764 /* WSBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WSBox.framework; path = WSBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8F7C9751ECB457ACC86747DF158DFB /* WSMoneyConversion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WSMoneyConversion.m; sourceTree = "<group>"; };
+		0CD83A8DDF0F94547A0DCC07FCD18C9C /* UIImage+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WSExtension.m"; sourceTree = "<group>"; };
+		1084BCC96B7EC5FF80B72FB68CBB0B49 /* UIView+WSFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+WSFrame.h"; sourceTree = "<group>"; };
+		120E406DE9C9CBC49545D98A2E0CB157 /* NSFileManager+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+WSExtension.m"; sourceTree = "<group>"; };
+		1681621A4DF33C613B0CC1F3B7722764 /* WSBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BEA9D51147442BB74672DF041893DA /* WSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WSSwizzle.m; sourceTree = "<group>"; };
 		17F56B5F212EA77A111901A6477E2ADB /* Pods-WSBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		19267D5DF8BFD346DC0C8994A1718373 /* WSBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WSBox-Info.plist"; sourceTree = "<group>"; };
-		1C8160D18C97BD9DBE4FD2603579DAEB /* WSBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WSBox.modulemap; sourceTree = "<group>"; };
+		1EACE0E6C737C85FE4CD546A7401765C /* UIToolbar+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+WSExtension.h"; sourceTree = "<group>"; };
 		27A84CA5A9063EF80D794E4DC7DA68C6 /* Pods-WSBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2834F2B038092A8C0D013C3E85F86880 /* NSString+NSHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHash.h"; sourceTree = "<group>"; };
+		287962877D97BB50BAB4F22085041D59 /* WSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSSwizzle.h; sourceTree = "<group>"; };
+		2CB1C4E68095FC8A546A36172EDBDFC0 /* WSBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSBox-umbrella.h"; sourceTree = "<group>"; };
+		2FE1CDED19FA10B4C64C32EE79F26C49 /* WSCollectionCellHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSCollectionCellHeader.h; sourceTree = "<group>"; };
+		31339F6073CF0F3F4347D1BD63B2C52C /* WSBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WSBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		321EE998CB677C5A4F86951A13DC1FB8 /* WSBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WSBox.modulemap; sourceTree = "<group>"; };
 		36B65BF57A7EF302EE6F0D59D5BFDCE9 /* Pods-WSBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		378DE220B93CE04FC05046CFA95EC022 /* WSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSSwizzle.h; sourceTree = "<group>"; };
-		38A4908271EC252857BF006C11629CBE /* WSScreenHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSScreenHeader.h; sourceTree = "<group>"; };
-		39277EA859499FA3D0827E1AAD942834 /* NSFileManager+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+WSExtension.h"; sourceTree = "<group>"; };
-		3C6C5D07096E70DF54997068D1A1437A /* UIView+WSFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+WSFrame.h"; sourceTree = "<group>"; };
+		3B4BE62F42F8EA95C336E62C0A864270 /* NSFileManager+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+WSExtension.h"; sourceTree = "<group>"; };
 		3D494E86FAB1C97CAF5605ECCC71B9BD /* Pods-WSBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSBox_Example-umbrella.h"; sourceTree = "<group>"; };
-		3F8EB7C1945BE42650106C32A0317452 /* NSString+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+WSExtension.m"; sourceTree = "<group>"; };
-		42180A5AC427EA0A49649149D5A07309 /* UIToolbar+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+WSExtension.m"; sourceTree = "<group>"; };
 		45F2ACBE579C6D9E93EE7BC2F22F6DF9 /* Pods-WSBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		48F5F222C8BC516837FD7AC73945D413 /* Pods-WSBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		49E6F09F22F766039CD8474240D52B7A /* WSBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WSBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4A8A27A7DCB906E6DC7E586F11BBB2E4 /* UIBarButtonItem+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WSExtension.h"; sourceTree = "<group>"; };
-		616824F0179B9F9BBE482658006339CB /* WSTimeConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSTimeConversion.h; sourceTree = "<group>"; };
-		6611427FF9C0825D757D7392D004F3BB /* UIBarButtonItem+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WSExtension.m"; sourceTree = "<group>"; };
-		6C40BED89F81C5585C92AAA93DF74EAF /* UIView+WSFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+WSFrame.m"; sourceTree = "<group>"; };
-		77EC00B1BA5E08A298D7C1CE4DB0CD8D /* WSMoneyConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSMoneyConversion.h; sourceTree = "<group>"; };
+		50B31E1700E8BAA2C042A5AE05C5FC4E /* UIBarButtonItem+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WSExtension.m"; sourceTree = "<group>"; };
+		5156923175465AA408B62CB236941166 /* WSBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WSBox-Info.plist"; sourceTree = "<group>"; };
+		5476D64A46752D818E65423F8A43CEB8 /* NSString+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+WSExtension.m"; sourceTree = "<group>"; };
+		5AF136460333816942759C5214D6CB06 /* UIToolbar+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+WSExtension.m"; sourceTree = "<group>"; };
+		5DB9F06931B4FB086A10F6F6B695C3CC /* NSString+NSHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHash.m"; sourceTree = "<group>"; };
+		6E34EC4BC5D48DF66BC4C1DDEFE5899E /* UIView+WSFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+WSFrame.m"; sourceTree = "<group>"; };
+		7280EDD10861CC7E9021C1DE4FC49E1E /* NSMutableArray+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WSExtension.h"; sourceTree = "<group>"; };
+		7739F752EFCA96DB2F565C3C88D5341C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		786293277D90CEE5AA224B49B07E9172 /* Pods-WSBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSBox_Tests-dummy.m"; sourceTree = "<group>"; };
-		80165B62CD9A9F4563E2EE762A595363 /* NSString+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+WSExtension.h"; sourceTree = "<group>"; };
-		85185D20F46479897164CDEFAE467C27 /* WSTimeConversion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WSTimeConversion.m; sourceTree = "<group>"; };
-		86D99E76F4CFA3444B6E0C37AC7574D7 /* WSColorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSColorHeader.h; sourceTree = "<group>"; };
 		8BE9EED7C4B71E6475C663C6CDF6D64D /* Pods-WSBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSBox_Example-Info.plist"; sourceTree = "<group>"; };
-		8E86D6DE293D529DCCD520E2D80F6B5F /* NSFileManager+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+WSExtension.m"; sourceTree = "<group>"; };
-		93BD16524C4B7845D10BE48ADA0F6604 /* Pods_WSBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WSBox_Tests.framework; path = "Pods-WSBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		944D328973EC7A40DF8BC98AE5662347 /* WSBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSBox.h; path = WSBox/Classes/WSBox.h; sourceTree = "<group>"; };
-		9C056AF9C50EB614ADA80F0661CAF7D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92E41F3EE3A2DB59BAC94B3E962406D4 /* NSData+NSHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+NSHash.h"; sourceTree = "<group>"; };
+		93BD16524C4B7845D10BE48ADA0F6604 /* Pods_WSBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A2421AD77DE085C64FC1B609C04A27 /* NSMutableArray+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WSExtension.m"; sourceTree = "<group>"; };
+		9854F240DC45EDA5D88E68CACE98FC55 /* WSScreenHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSScreenHeader.h; sourceTree = "<group>"; };
+		9984169E44AB4847B0274B0A282BF7EE /* WSBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSBox-prefix.pch"; sourceTree = "<group>"; };
+		99A796D35C6CB20CFEEB4F922DD37A00 /* WSColorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSColorHeader.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC439E0ADB4310BE0EB91D3BF0681CD /* WSBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSBox.h; path = WSBox/Classes/WSBox.h; sourceTree = "<group>"; };
 		A142645A5A6BFD9E60E27413F1B21DA1 /* Pods-WSBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A57EC26B9768BEB6E192C6E30A675B21 /* Pods-WSBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A5A63EDC7BDA1FA8DFC0E1576C223EA0 /* WSBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSBox.xcconfig; sourceTree = "<group>"; };
-		A862D54716BAAA11D84DA04A91695E63 /* WSBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSBox-umbrella.h"; sourceTree = "<group>"; };
-		AAD4395A5FF3E0CBC421F5801B51D20A /* WSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WSSwizzle.m; sourceTree = "<group>"; };
-		AF007E156CD72A894A0D34E3537F4CF8 /* WSUserDefaultsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSUserDefaultsHeader.h; sourceTree = "<group>"; };
-		B13FFCD3A977F8ED5C0F815CB3978684 /* NSMutableArray+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WSExtension.h"; sourceTree = "<group>"; };
-		B64D74344F371C19D5E74683ACDB3A45 /* Pods_WSBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WSBox_Example.framework; path = "Pods-WSBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB4A4F1EA3F112E4AF6D61E3D9032CAA /* WSBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSBox-dummy.m"; sourceTree = "<group>"; };
+		B633C8B1E623E3DBDDF9B6C4B7F7AE67 /* NSArray+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WSExtension.m"; sourceTree = "<group>"; };
+		B64D74344F371C19D5E74683ACDB3A45 /* Pods_WSBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A3FE1C909793B37D01FFB5BFFFB16A /* WSUserDefaultsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSUserDefaultsHeader.h; sourceTree = "<group>"; };
 		BCF529892D9036D6C3DCE96B4B136318 /* Pods-WSBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSBox_Tests-Info.plist"; sourceTree = "<group>"; };
-		BE3F585F4B5C8C58FBFB81A9EA4E7684 /* NSString+NSHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHash.m"; sourceTree = "<group>"; };
-		C83D359DBA30D2FF9DC19A1AE5B9BFF9 /* UITextView+WSPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WSPlaceholder.m"; sourceTree = "<group>"; };
-		C85DCC371D144080D38AD0675F6F56C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BDF7B3E482F2571B91179948B6443298 /* UITextView+WSPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WSPlaceholder.m"; sourceTree = "<group>"; };
+		CAC031E3F62F0ECBE701101EAA084DE5 /* WSBatteryInfoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSBatteryInfoManager.h; sourceTree = "<group>"; };
 		CB2AB46E9F2581330C256EBE0B6B8FA1 /* Pods-WSBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WSBox_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D4A0D70ACD7D5EBBB3833FFE77CAFBA5 /* NSData+NSHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+NSHash.h"; sourceTree = "<group>"; };
-		D5F882226F6BE4770618403ABDAAA34C /* WSBatteryInfoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSBatteryInfoManager.h; sourceTree = "<group>"; };
-		DE0CF40146ABA76087A57AF1FCF5B10B /* NSArray+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WSExtension.m"; sourceTree = "<group>"; };
-		DE940E71BD29FAA9C1C19DCC589EB1F6 /* UITextView+WSPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+WSPlaceholder.h"; sourceTree = "<group>"; };
-		E15B6D132A141DEE3542BF2CF2595EA8 /* WSCollectionCellHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSCollectionCellHeader.h; sourceTree = "<group>"; };
+		CB92703ACA08C1C7D14DA9892CBE146F /* UIImage+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+WSExtension.h"; sourceTree = "<group>"; };
+		CF9F6E1A9685CDC42B9F0072DA3528DD /* WSBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSBox.xcconfig; sourceTree = "<group>"; };
+		D1C71DAF288BAF955358590B349C4F60 /* WSBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSBox-dummy.m"; sourceTree = "<group>"; };
+		DC680F26D3C581D95F615B1245359A9D /* NSArray+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+WSExtension.h"; sourceTree = "<group>"; };
+		DDA36C6FB2DB37EEEB87602C78B58F48 /* UIBarButtonItem+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WSExtension.h"; sourceTree = "<group>"; };
+		DE548736A77A6D09EF611AF59E42CAD7 /* WSTimeConversion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WSTimeConversion.m; sourceTree = "<group>"; };
+		E229D24D8E0BBF813D0FE5433D54D08F /* UITextView+WSPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+WSPlaceholder.h"; sourceTree = "<group>"; };
 		E3DCD794E8EA2B86783B1125C607107D /* Pods-WSBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSBox_Example-dummy.m"; sourceTree = "<group>"; };
+		E3E97F7CFD1C5EA6601A53602D383884 /* NSData+NSHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSHash.m"; sourceTree = "<group>"; };
+		E988C625E5C13494AD9C3B9455F7AB7F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EC1607AE8B4DFFAE7950139C3CBF0454 /* Pods-WSBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSBox_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EDA8116FFC2F103C101254FBB86B8F54 /* NSString+NSHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHash.h"; sourceTree = "<group>"; };
-		F6C7482C12150E0DECC867B7C3A943B7 /* NSArray+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+WSExtension.h"; sourceTree = "<group>"; };
-		F7D5E02357DA11CDEC3ED0A644081EE9 /* WSBatteryInfoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WSBatteryInfoManager.m; sourceTree = "<group>"; };
+		EE52462101E21665F5AC8FB69CD7B265 /* NSString+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+WSExtension.h"; sourceTree = "<group>"; };
+		F223EAB5858B785BA81FDEC35136CDAF /* WSMoneyConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSMoneyConversion.h; sourceTree = "<group>"; };
 		F9C6C32C838C77936BD24C0003139826 /* Pods-WSBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FCA689244A1D0BE7E0770D7DF1965E5E /* NSData+NSHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSHash.m"; sourceTree = "<group>"; };
-		FD6013D399C9661A3A0BFF766BAE0B72 /* NSMutableArray+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WSExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,92 +168,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00F67C0D9EAD4A35511370D14EE35379 /* WSBox */ = {
+		1A453D6F44E083117678F2B8F3B3600C /* Device */ = {
 			isa = PBXGroup;
 			children = (
-				944D328973EC7A40DF8BC98AE5662347 /* WSBox.h */,
-				5D722D69DA96C5C8EDEF0421548CA8A0 /* Category */,
-				CD1B0D7655C044EECF27176369644BB1 /* Date */,
-				2D3F508965EF92A30A850D0102846B96 /* Device */,
-				097779B4B201820993325C356596884F /* Macro */,
-				2E7D079B494CED4CB5BB5CAA42470885 /* Money */,
-				800535F3AFA140ACFD4FFA70389CD933 /* NSHash */,
-				C56CB3303F964BCD314B3AA034930610 /* Pod */,
-				13301EA86D1B97D65553E066441CE14D /* Support Files */,
-				8B5537F55C717CE7FDE70D2E28C6DD1A /* Swizzle */,
-			);
-			name = WSBox;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		097779B4B201820993325C356596884F /* Macro */ = {
-			isa = PBXGroup;
-			children = (
-				E15B6D132A141DEE3542BF2CF2595EA8 /* WSCollectionCellHeader.h */,
-				86D99E76F4CFA3444B6E0C37AC7574D7 /* WSColorHeader.h */,
-				38A4908271EC252857BF006C11629CBE /* WSScreenHeader.h */,
-				AF007E156CD72A894A0D34E3537F4CF8 /* WSUserDefaultsHeader.h */,
-			);
-			name = Macro;
-			path = WSBox/Classes/Macro;
-			sourceTree = "<group>";
-		};
-		13301EA86D1B97D65553E066441CE14D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1C8160D18C97BD9DBE4FD2603579DAEB /* WSBox.modulemap */,
-				A5A63EDC7BDA1FA8DFC0E1576C223EA0 /* WSBox.xcconfig */,
-				BB4A4F1EA3F112E4AF6D61E3D9032CAA /* WSBox-dummy.m */,
-				19267D5DF8BFD346DC0C8994A1718373 /* WSBox-Info.plist */,
-				0906D56C78A35FEF273A779532B67171 /* WSBox-prefix.pch */,
-				A862D54716BAAA11D84DA04A91695E63 /* WSBox-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WSBox";
-			sourceTree = "<group>";
-		};
-		2D3F508965EF92A30A850D0102846B96 /* Device */ = {
-			isa = PBXGroup;
-			children = (
-				D5F882226F6BE4770618403ABDAAA34C /* WSBatteryInfoManager.h */,
-				F7D5E02357DA11CDEC3ED0A644081EE9 /* WSBatteryInfoManager.m */,
+				CAC031E3F62F0ECBE701101EAA084DE5 /* WSBatteryInfoManager.h */,
+				012C098755CC2270E3DE9722770E5418 /* WSBatteryInfoManager.m */,
 			);
 			name = Device;
 			path = WSBox/Classes/Device;
 			sourceTree = "<group>";
 		};
-		2E7D079B494CED4CB5BB5CAA42470885 /* Money */ = {
+		25A8475BDBE0ACD9A98C126F3AA53C45 /* WSBox */ = {
 			isa = PBXGroup;
 			children = (
-				77EC00B1BA5E08A298D7C1CE4DB0CD8D /* WSMoneyConversion.h */,
-				09D2C996621152C578FFB3907E54E856 /* WSMoneyConversion.m */,
+				9FC439E0ADB4310BE0EB91D3BF0681CD /* WSBox.h */,
+				E26EE23FE5CF074CDE5719BF7BD496DA /* Category */,
+				A2DEC840DBE87087B7DCC6A8CEC0BEA9 /* Date */,
+				1A453D6F44E083117678F2B8F3B3600C /* Device */,
+				C5A10393DA6333C655BD32984797654A /* Macro */,
+				89CBFD4FCE00DC16AAF42015E0E32F62 /* Money */,
+				4A4643892ACD0CB5623C565C2B6FA5F1 /* NSHash */,
+				3F59214BAD4A8098E1784344129522DA /* Pod */,
+				4AE437DFC14A2B44C7C61919E144CECF /* Support Files */,
+				7E01DE3D02E2398CF1DF18BF032D2B22 /* Swizzle */,
 			);
-			name = Money;
-			path = WSBox/Classes/Money;
+			name = WSBox;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		5D722D69DA96C5C8EDEF0421548CA8A0 /* Category */ = {
+		3F59214BAD4A8098E1784344129522DA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F6C7482C12150E0DECC867B7C3A943B7 /* NSArray+WSExtension.h */,
-				DE0CF40146ABA76087A57AF1FCF5B10B /* NSArray+WSExtension.m */,
-				39277EA859499FA3D0827E1AAD942834 /* NSFileManager+WSExtension.h */,
-				8E86D6DE293D529DCCD520E2D80F6B5F /* NSFileManager+WSExtension.m */,
-				B13FFCD3A977F8ED5C0F815CB3978684 /* NSMutableArray+WSExtension.h */,
-				FD6013D399C9661A3A0BFF766BAE0B72 /* NSMutableArray+WSExtension.m */,
-				80165B62CD9A9F4563E2EE762A595363 /* NSString+WSExtension.h */,
-				3F8EB7C1945BE42650106C32A0317452 /* NSString+WSExtension.m */,
-				4A8A27A7DCB906E6DC7E586F11BBB2E4 /* UIBarButtonItem+WSExtension.h */,
-				6611427FF9C0825D757D7392D004F3BB /* UIBarButtonItem+WSExtension.m */,
-				DE940E71BD29FAA9C1C19DCC589EB1F6 /* UITextView+WSPlaceholder.h */,
-				C83D359DBA30D2FF9DC19A1AE5B9BFF9 /* UITextView+WSPlaceholder.m */,
-				02F0D5B5AC32B91B814FD699DC70ED8B /* UIToolbar+WSExtension.h */,
-				42180A5AC427EA0A49649149D5A07309 /* UIToolbar+WSExtension.m */,
-				3C6C5D07096E70DF54997068D1A1437A /* UIView+WSFrame.h */,
-				6C40BED89F81C5585C92AAA93DF74EAF /* UIView+WSFrame.m */,
+				7739F752EFCA96DB2F565C3C88D5341C /* LICENSE */,
+				E988C625E5C13494AD9C3B9455F7AB7F /* README.md */,
+				31339F6073CF0F3F4347D1BD63B2C52C /* WSBox.podspec */,
 			);
-			name = Category;
-			path = WSBox/Classes/Category;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4A4643892ACD0CB5623C565C2B6FA5F1 /* NSHash */ = {
+			isa = PBXGroup;
+			children = (
+				92E41F3EE3A2DB59BAC94B3E962406D4 /* NSData+NSHash.h */,
+				E3E97F7CFD1C5EA6601A53602D383884 /* NSData+NSHash.m */,
+				2834F2B038092A8C0D013C3E85F86880 /* NSString+NSHash.h */,
+				5DB9F06931B4FB086A10F6F6B695C3CC /* NSString+NSHash.m */,
+			);
+			name = NSHash;
+			path = WSBox/Classes/NSHash;
+			sourceTree = "<group>";
+		};
+		4AE437DFC14A2B44C7C61919E144CECF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				321EE998CB677C5A4F86951A13DC1FB8 /* WSBox.modulemap */,
+				CF9F6E1A9685CDC42B9F0072DA3528DD /* WSBox.xcconfig */,
+				D1C71DAF288BAF955358590B349C4F60 /* WSBox-dummy.m */,
+				5156923175465AA408B62CB236941166 /* WSBox-Info.plist */,
+				9984169E44AB4847B0274B0A282BF7EE /* WSBox-prefix.pch */,
+				2CB1C4E68095FC8A546A36172EDBDFC0 /* WSBox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WSBox";
 			sourceTree = "<group>";
 		};
 		662320736CCEA6397E0467C6DE7C835F /* Pods-WSBox_Example */ = {
@@ -268,16 +249,14 @@
 			path = "Target Support Files/Pods-WSBox_Example";
 			sourceTree = "<group>";
 		};
-		800535F3AFA140ACFD4FFA70389CD933 /* NSHash */ = {
+		7E01DE3D02E2398CF1DF18BF032D2B22 /* Swizzle */ = {
 			isa = PBXGroup;
 			children = (
-				D4A0D70ACD7D5EBBB3833FFE77CAFBA5 /* NSData+NSHash.h */,
-				FCA689244A1D0BE7E0770D7DF1965E5E /* NSData+NSHash.m */,
-				EDA8116FFC2F103C101254FBB86B8F54 /* NSString+NSHash.h */,
-				BE3F585F4B5C8C58FBFB81A9EA4E7684 /* NSString+NSHash.m */,
+				287962877D97BB50BAB4F22085041D59 /* WSSwizzle.h */,
+				16BEA9D51147442BB74672DF041893DA /* WSSwizzle.m */,
 			);
-			name = NSHash;
-			path = WSBox/Classes/NSHash;
+			name = Swizzle;
+			path = WSBox/Classes/Swizzle;
 			sourceTree = "<group>";
 		};
 		80FF77A22323669AD9B067E0657CCE58 /* Pods-WSBox_Tests */ = {
@@ -296,14 +275,14 @@
 			path = "Target Support Files/Pods-WSBox_Tests";
 			sourceTree = "<group>";
 		};
-		8B5537F55C717CE7FDE70D2E28C6DD1A /* Swizzle */ = {
+		89CBFD4FCE00DC16AAF42015E0E32F62 /* Money */ = {
 			isa = PBXGroup;
 			children = (
-				378DE220B93CE04FC05046CFA95EC022 /* WSSwizzle.h */,
-				AAD4395A5FF3E0CBC421F5801B51D20A /* WSSwizzle.m */,
+				F223EAB5858B785BA81FDEC35136CDAF /* WSMoneyConversion.h */,
+				0B8F7C9751ECB457ACC86747DF158DFB /* WSMoneyConversion.m */,
 			);
-			name = Swizzle;
-			path = WSBox/Classes/Swizzle;
+			name = Money;
+			path = WSBox/Classes/Money;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -312,6 +291,16 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		A2DEC840DBE87087B7DCC6A8CEC0BEA9 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				00616C1B7579447BE42A554C168C92F0 /* WSTimeConversion.h */,
+				DE548736A77A6D09EF611AF59E42CAD7 /* WSTimeConversion.m */,
+			);
+			name = Date;
+			path = WSBox/Classes/Date;
 			sourceTree = "<group>";
 		};
 		A5294A7A514227565C55BA6CAF49CE47 /* Products */ = {
@@ -327,29 +316,21 @@
 		B9A935FF8DEC019EE5A9C05908F02ED1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				00F67C0D9EAD4A35511370D14EE35379 /* WSBox */,
+				25A8475BDBE0ACD9A98C126F3AA53C45 /* WSBox */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C56CB3303F964BCD314B3AA034930610 /* Pod */ = {
+		C5A10393DA6333C655BD32984797654A /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				C85DCC371D144080D38AD0675F6F56C8 /* LICENSE */,
-				9C056AF9C50EB614ADA80F0661CAF7D4 /* README.md */,
-				49E6F09F22F766039CD8474240D52B7A /* WSBox.podspec */,
+				2FE1CDED19FA10B4C64C32EE79F26C49 /* WSCollectionCellHeader.h */,
+				99A796D35C6CB20CFEEB4F922DD37A00 /* WSColorHeader.h */,
+				9854F240DC45EDA5D88E68CACE98FC55 /* WSScreenHeader.h */,
+				B9A3FE1C909793B37D01FFB5BFFFB16A /* WSUserDefaultsHeader.h */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		CD1B0D7655C044EECF27176369644BB1 /* Date */ = {
-			isa = PBXGroup;
-			children = (
-				616824F0179B9F9BBE482658006339CB /* WSTimeConversion.h */,
-				85185D20F46479897164CDEFAE467C27 /* WSTimeConversion.m */,
-			);
-			name = Date;
-			path = WSBox/Classes/Date;
+			name = Macro;
+			path = WSBox/Classes/Macro;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -380,6 +361,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E26EE23FE5CF074CDE5719BF7BD496DA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DC680F26D3C581D95F615B1245359A9D /* NSArray+WSExtension.h */,
+				B633C8B1E623E3DBDDF9B6C4B7F7AE67 /* NSArray+WSExtension.m */,
+				3B4BE62F42F8EA95C336E62C0A864270 /* NSFileManager+WSExtension.h */,
+				120E406DE9C9CBC49545D98A2E0CB157 /* NSFileManager+WSExtension.m */,
+				7280EDD10861CC7E9021C1DE4FC49E1E /* NSMutableArray+WSExtension.h */,
+				95A2421AD77DE085C64FC1B609C04A27 /* NSMutableArray+WSExtension.m */,
+				EE52462101E21665F5AC8FB69CD7B265 /* NSString+WSExtension.h */,
+				5476D64A46752D818E65423F8A43CEB8 /* NSString+WSExtension.m */,
+				DDA36C6FB2DB37EEEB87602C78B58F48 /* UIBarButtonItem+WSExtension.h */,
+				50B31E1700E8BAA2C042A5AE05C5FC4E /* UIBarButtonItem+WSExtension.m */,
+				CB92703ACA08C1C7D14DA9892CBE146F /* UIImage+WSExtension.h */,
+				0CD83A8DDF0F94547A0DCC07FCD18C9C /* UIImage+WSExtension.m */,
+				E229D24D8E0BBF813D0FE5433D54D08F /* UITextView+WSPlaceholder.h */,
+				BDF7B3E482F2571B91179948B6443298 /* UITextView+WSPlaceholder.m */,
+				1EACE0E6C737C85FE4CD546A7401765C /* UIToolbar+WSExtension.h */,
+				5AF136460333816942759C5214D6CB06 /* UIToolbar+WSExtension.m */,
+				1084BCC96B7EC5FF80B72FB68CBB0B49 /* UIView+WSFrame.h */,
+				6E34EC4BC5D48DF66BC4C1DDEFE5899E /* UIView+WSFrame.m */,
+			);
+			name = Category;
+			path = WSBox/Classes/Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -391,30 +398,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0DB0860FCBA76DC1A25D6ABADB5C20B /* Headers */ = {
+		8CCAE24499A7252F747141148E10F463 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD281515316B99D1E4D7ABA968E67907 /* NSArray+WSExtension.h in Headers */,
-				86707FFE7EDF66EA71E2073EF80C24B8 /* NSData+NSHash.h in Headers */,
-				F887DCB10BE4D26361D704511028BE52 /* NSFileManager+WSExtension.h in Headers */,
-				C0F06C9BCCBC22B06FF563D442595D95 /* NSMutableArray+WSExtension.h in Headers */,
-				F51DEA3B5E74B5363302A254B3614BE1 /* NSString+NSHash.h in Headers */,
-				CD84E12C7BED8390207CA9D3E4566B2A /* NSString+WSExtension.h in Headers */,
-				6D0FDDAD895FCBFA39380547405589AD /* UIBarButtonItem+WSExtension.h in Headers */,
-				49094346F66712E804623EEB7D08A1E9 /* UITextView+WSPlaceholder.h in Headers */,
-				2AD1E9CCC5F4ED59EF7F35938E4D46BA /* UIToolbar+WSExtension.h in Headers */,
-				342A65EBC4C5660688EC048D9D4E2B1D /* UIView+WSFrame.h in Headers */,
-				B58338BB125D4CEE84A5085E925EFA2B /* WSBatteryInfoManager.h in Headers */,
-				920BD61513E723A5C717FC77D81ACF69 /* WSBox-umbrella.h in Headers */,
-				6EBB5962BF977136E20BC620E6969F24 /* WSBox.h in Headers */,
-				90D8506C7F3957A09681692701259F3C /* WSCollectionCellHeader.h in Headers */,
-				9CD2A2B64BC6EE78D3898152F6806CF8 /* WSColorHeader.h in Headers */,
-				F6BF0893273768EBD5F9A1DFE0E2DA4D /* WSMoneyConversion.h in Headers */,
-				82B482AEFF3BED980D5FEA2538BA5DFC /* WSScreenHeader.h in Headers */,
-				66FC97EE094966D6D6541CC0B8D0A5E8 /* WSSwizzle.h in Headers */,
-				E1FAADA79706740559982160E9DFB434 /* WSTimeConversion.h in Headers */,
-				A85C66D6B5A76B9920EA8215494E1C66 /* WSUserDefaultsHeader.h in Headers */,
+				DB9930DE1C3CBBDD857282E6034AE020 /* NSArray+WSExtension.h in Headers */,
+				BBB8A297CCD6BB842175128ACABA20A4 /* NSData+NSHash.h in Headers */,
+				FC0907648E8BE61D2B97A8DA02CD8DCB /* NSFileManager+WSExtension.h in Headers */,
+				4DCBAA5D59FB58B7179A5914836B3F8D /* NSMutableArray+WSExtension.h in Headers */,
+				2B3A40DDB827E0193C13A9AEB5957CDA /* NSString+NSHash.h in Headers */,
+				691A0476C8BE38FB8B8A4F463B4A17EC /* NSString+WSExtension.h in Headers */,
+				433ACD24501FD99F5979FA79ADB917C9 /* UIBarButtonItem+WSExtension.h in Headers */,
+				A7FFDBD6932B5E3F2E3525823D07B386 /* UIImage+WSExtension.h in Headers */,
+				B5C5702E027EC6C74C7C5BAA882FEF3F /* UITextView+WSPlaceholder.h in Headers */,
+				556FC782218F926BEB9D474DFED161C6 /* UIToolbar+WSExtension.h in Headers */,
+				BA4D32AED763F6625B30019962DA1BAA /* UIView+WSFrame.h in Headers */,
+				A571F89954469951208533DDAAD48899 /* WSBatteryInfoManager.h in Headers */,
+				8B2ABCBB20A651EB648CAB4B49D07E12 /* WSBox-umbrella.h in Headers */,
+				4EFC5336F8DF78FD3D1F87DF59A8ADCF /* WSBox.h in Headers */,
+				7AEDD76DD2BD2FE342B93FFF95CE3037 /* WSCollectionCellHeader.h in Headers */,
+				A9EFA522CEC73DCC1D896F5122D2E034 /* WSColorHeader.h in Headers */,
+				8C47479B029F6D9BE94813200E7D6DF4 /* WSMoneyConversion.h in Headers */,
+				F935A044004DB8C0CB505F751E74B0E3 /* WSScreenHeader.h in Headers */,
+				D5834596E8B85A6EA05750C7AB30414C /* WSSwizzle.h in Headers */,
+				738DD1F99389BE8AA8B41878DA712293 /* WSTimeConversion.h in Headers */,
+				8B615D431E9DBD94241BDEC482019BB0 /* WSUserDefaultsHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,8 +441,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93B3120FB19CD5E0A50321D9905022A3 /* Build configuration list for PBXNativeTarget "WSBox" */;
 			buildPhases = (
-				B0DB0860FCBA76DC1A25D6ABADB5C20B /* Headers */,
-				3FF77A21CFA0F16005398D930B3C0632 /* Sources */,
+				8CCAE24499A7252F747141148E10F463 /* Headers */,
+				1467C3631D755C331406FB855E474F55 /* Sources */,
 				33BF8412309746D9476FA8E1E26F65F6 /* Frameworks */,
 				1B756F842D7554D275E8D35BE95BB6F7 /* Resources */,
 			);
@@ -499,6 +507,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -538,33 +547,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1467C3631D755C331406FB855E474F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DE81929E1AED05EDB2B27C28112828 /* NSArray+WSExtension.m in Sources */,
+				93EF23C7FEEA100596A2FB27E06E40E9 /* NSData+NSHash.m in Sources */,
+				46923DF3AACD9E26CC9560632D3B82ED /* NSFileManager+WSExtension.m in Sources */,
+				0F299EF67FEDB9C35999572A342A87C5 /* NSMutableArray+WSExtension.m in Sources */,
+				5501C3F40D481BC8687C9A17CFAF6E09 /* NSString+NSHash.m in Sources */,
+				784C54BE68486F36CD2473D28092F187 /* NSString+WSExtension.m in Sources */,
+				B42F203D60B2CEAB84BA266EBAFEA4D8 /* UIBarButtonItem+WSExtension.m in Sources */,
+				F462FB47DA27112520EF3349D9B6CA9B /* UIImage+WSExtension.m in Sources */,
+				FEFD10C69F1D99C22730AC647D2F471A /* UITextView+WSPlaceholder.m in Sources */,
+				2C8E6BD4D4EA835C396F7CEA7D21723F /* UIToolbar+WSExtension.m in Sources */,
+				406E0A9653D99E184CC230418DA5C342 /* UIView+WSFrame.m in Sources */,
+				AEAC5DEC7521B30C99A10F1FAE24C4DE /* WSBatteryInfoManager.m in Sources */,
+				5A03F71B55A20D3431C9682D958BC5DA /* WSBox-dummy.m in Sources */,
+				A10CEA7A22EE0D4CDBFF11EA4C610687 /* WSMoneyConversion.m in Sources */,
+				2864BC0105EABB4BD148FC40737AA6AC /* WSSwizzle.m in Sources */,
+				019BC4115CAB6E6F2092FA9E0486E995 /* WSTimeConversion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		24F87A701C85799EDEA05B6EB4662A5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F8815FC41E2045DEB0954630F4794B81 /* Pods-WSBox_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FF77A21CFA0F16005398D930B3C0632 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBB42013F389E007ECC50394353AEFDF /* NSArray+WSExtension.m in Sources */,
-				BB64591F5F67EAE924BF017FF0B2ED98 /* NSData+NSHash.m in Sources */,
-				6441F242C40B7A81C7E931B0D99ECC87 /* NSFileManager+WSExtension.m in Sources */,
-				ECA73BA970C5CCAF626BCD2157880366 /* NSMutableArray+WSExtension.m in Sources */,
-				937630C6B453B1C8AA1F27643AD11B66 /* NSString+NSHash.m in Sources */,
-				4E19C9A3D9C94C9D6FE69B1EF9192CD6 /* NSString+WSExtension.m in Sources */,
-				6C6BEC04ECCD1333303FB1EF12CEB9B3 /* UIBarButtonItem+WSExtension.m in Sources */,
-				056510750C21935DEDC104CF02737B2B /* UITextView+WSPlaceholder.m in Sources */,
-				2CADA4FA570DB3CE2161CDEAC3D7B313 /* UIToolbar+WSExtension.m in Sources */,
-				B21F8ADCDB0ABE70674AD5A97C28DB67 /* UIView+WSFrame.m in Sources */,
-				E51B65B0B16580EA4FEC97EB6732470C /* WSBatteryInfoManager.m in Sources */,
-				8649AB846B47A9AEFFD51A90664A3DAA /* WSBox-dummy.m in Sources */,
-				14C04A8874FFF50E9659BA32F9A0FFC3 /* WSMoneyConversion.m in Sources */,
-				165C30566A4622578EDCD95B04AF993C /* WSSwizzle.m in Sources */,
-				8FA9894669FAF526A19714C8D9D5DD69 /* WSTimeConversion.m in Sources */,
+				D05FB1642262135600E78D2F /* UIImage+WSExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,8 +692,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -787,7 +797,7 @@
 		};
 		7431339A8288D66847578F955D88E70B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5A63EDC7BDA1FA8DFC0E1576C223EA0 /* WSBox.xcconfig */;
+			baseConfigurationReference = CF9F6E1A9685CDC42B9F0072DA3528DD /* WSBox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -818,7 +828,7 @@
 		};
 		7A9ED7B40E3D0A14365775631F3D5A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5A63EDC7BDA1FA8DFC0E1576C223EA0 /* WSBox.xcconfig */;
+			baseConfigurationReference = CF9F6E1A9685CDC42B9F0072DA3528DD /* WSBox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
