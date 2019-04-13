@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'WSBox'
-    s.version          = '0.4.8'
+    s.version          = '0.5.0'
     s.summary          = 'A tool box for iOS developer.'
     
     # This description is used to generate tags and improve search results.
